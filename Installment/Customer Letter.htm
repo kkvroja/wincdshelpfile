@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Customer Letter</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+</head>
+<body>
+<OBJECT type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Installment">
+	<param name="Keyword" value="Customer Letter">
+</OBJECT>
+<h1>Customer Letter</h1>
+<p align="justify">To access Customer Letter, go to Installment: <a href="Edit Accounts.htm">Edit Accounts</a>. This feature allows you to easily print an overdue letter to a customer.</p>
+<p align="justify">To compose a customer letter, click Start-Programs-Accessories-<b>WordPad</b>. Select File-<b>Open</b>, navigate to the C:\InventPX\ folder, and select <i>Rich Text Format (*.rtf)</i> under <b><i>Files of type</i></b>. When you are done composing the letter, click File-<b>Save As</b>, and enter a file name for this new document. After it is saved, you may exit and return to WinCDS.</p>
+<p align="justify">The following RTF file:</p>
+<font FACE="Arial" SIZE="2">
+<p style="background-color:white;border-style:solid;border-left: solid black;border-color:black;border-width:3;margin-left:5%;">
+<table border=0 width="90%"><tr><td>
+<p align="justify">%01<br>
+%02<br>
+%03<br>
+%04</p>
+<p align="justify">Account #: %05<br>
+%08, %07<br>
+%09<br>
+%10 %11<br>
+%12</p>
+<p align="justify">Dear %07 %08,</p>
+<p align="justify">Your current balance is %14. Your minimum payment is %16. If we do not receive this within 30 days, there will be a late charge of %17 added on to your bill.<br>
+If you have any questions, please call us at %04.</p>
+<p align="justify">Thank you,<br>
+%01</p>
+</td></tr></table>
+</p>
+
+</font>
+
+<p align="justify">will result in the following printed letter:</p>
+
+<p style="background-color:white;border-style:solid;border-left: solid black;border-color:black;border-width:3;margin-left:5%;">
+<table border=0 width="90%"><tr><td>
+
+<font FACE="Arial" SIZE="2">
+<p align="justify">My Furniture Store<br>
+12345 Main St.<br>
+Mycity, ST, 12345<br>
+(123) 456-7000</p>
+<p align="justify">Account #: 123456789<br>
+Doe, John<br>
+123 Main St.<br>
+Mycity, ST 12346<br>
+(123) 631-5678</p>
+<p align="justify">Dear John Doe,</p>
+<p align="justify">Your current balance is $586.32. Your minimum payment is $58.63. If we do not receive this within 30 days, there will be a late charge of $5.86 added on to your bill.<br>
+If you have any questions, please call us at (123) 456-7000.</p>
+<p align="justify">Thank you,<br>
+My Furniture Store</p>
+</td></tr></table>
+</p>
+</font>
+
+<p align="justify">For example, instead of entering the customer's name manually each time, simply enter %07 %08 on the Customer Letter.&nbsp; WinCDS will automatically replace %07 %08 with the customer's first and last name, etc.</p>
+<table border="1" width="85%" bgcolor=white align=center>
+  <tr bgcolor="lightblue"><td><b>Field</b></td><td><b>Sign</b></td></tr>
+  <tr><td width="50%">Store Name</td><td width="50%">%01</td></tr>
+  <tr><td>Store Address</td><td>%02</td></tr>
+  <tr><td>Store City, State, Zip</td><td>%03</td></tr>
+  <tr><td>Store Phone</td><td>%04</td></tr>
+
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>Customer Account No:</td><td>%05</td></tr>
+  <tr><td>Status</td><td>%06</td></tr>
+  <tr><td>First Name</td><td>%07</td></tr>
+  <tr><td>Last Name</td><td>%08</td></tr>
+  <tr><td>Address</td><td>%09</td></tr>
+  <tr><td>City, ST</td><td>%10</td></tr>
+  <tr><td>Zip</td><td>%11</td></tr>
+  <tr><td>Telephone 1</td><td>%12</td></tr>
+  <tr><td>Telephone 2</td><td>%13</td></tr>
+
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>Current Balance</td><td>%14</td></tr>
+  <tr><td>Late Charge Due On</td><td>%15</td></tr>
+  <tr><td>Payment</td><td>%16</td></tr>
+  <tr><td>Late Charge</td><td>%17</td></tr>
+  <tr><td>Amt. Financed</td><td>%18</td></tr>
+  <tr><td>Months Financed</td><td>%19</td></tr>
+  <tr><td>Last Payment Date</td><td>%20</td></tr>
+  <tr><td>Last Payment</td><td>%21</td></tr>
+  <tr><td>Over 40 Days</td><td>%22</td></tr>
+
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>Payment + Late Chg</td><td>%24</td></tr>
+  <tr><td>Due Date</td><td>%25</td></tr>
+  <tr><td>Arrearages</td><td>%26</td></tr>
+  <tr><td>Total Due</td><td>%27</td></tr>
+  <tr><td>Today's Date</td><td>%28</td></tr>
+  <tr><td>Del Date</td><td>%29</td></tr>
+  <tr><td>Credit Limit</td><td>%30</td></tr>
+  <tr><td>Credit Terms</td><td>%31</td></tr>
+</table>
+&nbsp;</body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Merge Addresses</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Mailing">
+	<param name="Keyword" value="Mailing Address Book">
+	<param name="Keyword" value="Address Book">
+</OBJECT>
+</head>
+<body>
+<h1>Merge Addresses</h1>
+
+<img src='merge.bmp'/><br/><br/>
+<h2>Merging Mailing List Addresses</h2>
+You have two ways to use the Mail Marge form.
+If you already know the customer with the duplicate names, click <b>Next</b> to start and enter the name on the form that appears.
+If you prefer to let the software find all the duplicate names, click <b>Find</b>.  
+<font size='-2' style='color:green'>Note: this may take hours depending on the number of names in the mailing list.  It will also take
+less time if run directly from the server.</font><br/>
+<br/>
+<font size='-1' style='color:orange'>It is advisable to backup the POS system before running the merge.</font>
+
+<h2>Auto-detection</h2>
+WinCDS can automatically look up names similar to one you specify to see if there are duplicate
+names in the database.  Click <b>Next</b> and enter a name in the form.  The software will fill
+the box with all the similar names it detects in the database.  If some of them do not match,
+simply clear the check-box for that line.
+<h3>Adding Additional Names</h3>
+If you know of another name that is not automatically detected by our software, you can click the
+<b>Add</b> button and enter and select it.  It will appear in the box below the other items.  If
+you wish to not include it, you can either clear it's check-box or start over using the
+<b>Clear</b> button.
+<h3>Merging Mail Accounts</h3>
+To do a comprehensive, irrevocable merger of mail records, once you have filled in the box and
+selected only the mail records you wish to merge, click the <b>Merge</b> button.  You will be
+prompted for which record to combine the others into and then asked for one final confirmation
+indicating that this change is IRREVOCABLE.
+<br/><br/>
+The software will then update all of the database for these records, rectifying them all
+into one mail account and deleting all record of the others.  This includes Gross Margin,
+Service Modules, Installment Modules, and Addresses.  Once done, it will reload the
+names from the database and allow you either to click the <b>Menu</b> button to exit the form
+or continue with another name.
+<h2>Optionally Find All Possible Duplicates</h2>
+If you do not have a list of duplicated names, you can also click <b>Find</b> to optionally find
+duplicate names in the database.  This can take and EXHAUSTIVELY long time.  For smaller databases,
+you should expect short wait times.  For a database of 500 names, the wait is under a minute, but 
+for a database of 10,000 names, you can expect an hour or two and for a database approaching 
+50,000 names, expect 12 or more hours.<br/><br/>
+Once the software has found duplicates and the box is populated, simply click on a name from
+above and the list on the left will be cleared and populated.  You can still add additional
+names using the <b>Add</b> button.  Once you have all the names, simply click <b>Merge</b> and
+use the same merge procedure as before.
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<title>Real-time Inventory Monitor - Web Development</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<meta name="keywords" content="web">
+<meta name="description" content="">
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="File Menu">
+	<param name="Keyword" value="Web">
+	<param name="Keyword" value="Web Development">
+	<param name="Keyword" value="Inventory Monitor">
+	<param name="Keyword" value="Real-time Inventory Monitor">
+</OBJECT>
+
+</head>
+
+<body>
+<p align=center><h1>Real-time Inventory Monitor</h1>
+
+<img border=0 alt='Real-time Inventory Monitor' src='monitor.bmp'>
+
+<p>In order to automatically verify stock levels and process orders in real time from
+Yahoo Small Business Solutions,
+one copy of the WinCDS program must be running with this form open.  This form
+performs two operations.</p>
+<p>
+<ol>
+<li>Verifies stock levels</li>
+<li>Retrieves order emails</li>
+</ol>
+
+<h3>Verifying stock levels</h3>
+<p>The program opens a port to listen for a connection from the Yahoo server.  Yahoo asks
+about a specific Style number and the program with the current stock, and a description
+if it is out of stock or non-determinable.</p>
+<h3>Retrieving order emails</h3>
+<p>The program connects to the specified POP3 server with the specified email account
+and password specified under the config and checks to see if there are any current orders.
+There isn't any action required.  The program will continue to recheck at a particular
+interval of time so long as this form is open.  If this form closes for any reason,
+simply re-open it, and it will begin its retrieval cycle again.</p>
+
+<h2>Configuration Panel</h2>
+<p>The first time you use this, you should set up the values in the configuration panel.
+Click the '<b>Config</b>' button, and you will see the following screen:<br><br>
+<img border=0 alt='Real-time Inventory Monitor' src='monitor-config.bmp'>
+<br><br>
+Simply enter the appropriate values into the boxes.
+
+<h4>Local IP Address</h4>
+Can be obtained from your network administrator or through a website such as
+<a href="http://www.ipchicken.com">www.ipchicken.com</a>.
+<h4>RT Inventory Monitor Port</h4>
+Any port number larger than 2048 that is not used by another application should be sufficient.
+Either use the default (the default for the program is 4242) or supply your own.  If you have
+a network administrator for your local network, that person will probably want to specify this
+value.
+<h4>Order Retreival POP3 Remote Host</h4>
+You should use the specified host and IP number (pop.bizmail.yahoo.com 110) unless specified
+otherwise by Yahoo.
+<h4>Order Retreival Email Account and Password</h4>
+After setting up the email account using the Email Account Manager and designating your
+orders to be delievered to this account, enter the account and password into these boxes.
+Be sure to include the entire email address (e.g. orders@yourpersonalwebsite.com).
+<br>
+<span style='font-weight:bold'><p>When you are finished with the configuration, click 'Save'.</p></span>
+
+</body>
+</html>

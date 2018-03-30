@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Options</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+</head>
+<body><p>
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Store Setup">
+	<param name="Keyword" value="Options">
+</OBJECT>
+<h1>Options</h1>
+<img src='OptionsPage.bmp'><br><br>
+<b>Click Below for Explanation</b></p>
+
+<table width='80%' border='1' cellspacing='0'>
+<tr><td colspan='2'style='background:black;'> </td></tr>
+<tr><td colspan='2'><H4>Sale Options</H4></td></tr>
+<tr><td width='300px'>Manual Entered Bill of Sales Numbers</td>
+	<td>
+		When you are first set up the software, you will want to use manually enter Bill Of Sale numbers 
+		to duplicate the open orders you already have.  Be sure to click on the Apply Button to save 
+		changes.  After you have entered all previous sales, go back and reset to have the computer 
+		generate the sale number.  You can select the starting automatically generated Bill Of Sale Number.<br/><br/>
+
+		<span style='font: normal Tahoma 10px;color: green'>Note:  You can set the software to increment 
+			the sale number from where you manual numbers left off.  However, I would start 
+			from an even number some distance for the manual sales.</span>
+	</td></tr>
+<tr><td>Require Advertising Type</td><td>If you want to force your sales people to select how the customer came into the store when they are making a sale, select this option and Apply.</td></tr>
+<tr><td>Prompt Email Address</td><td>If you want force a prompt for an email address when creating a sale, select this option.</td></tr>
+<tr><td>Prompt For Address on Cash Register</td><td>If you want the Cash Register interface to ask for an address for the customer, select this option.</td></tr>
+
+<tr><td colspan='2'style='background:black;'> </td></tr>
+<tr><td colspan='2'><H4>Multi-Store Options</H4></td></tr>
+<tr><td>Multi Store: Sell from Login Location</td>
+	<td>
+	If you have multiple stores and use a central warehouse, do not check this option.  Not checking this will set 
+	the default location of Inventory in the Point Of Sale module, to the store you are logged into.  If you want 
+	the merchandise to be pulled from the central warehouse, check this option.<br/><br/>
+
+	This will eliminate your salesperson forgetting to select where the merchandise is when making a sale. 
+	</td></tr>
+<tr><td>Multi Store: Post POs & Bank to Loc 1</td><td>If you have multiple stores and want to pay your invoices out of the Main Store's checkbook, click on this option and save.  This will send the cash amount of the Purchase Orders directly to store 1 checkbook.</td></tr>
+<tr><td>Multi Store: PO Invoices to Loc 1</td><td>When you check this option, all PO invoices will be sent to store 1, irregardless of which Location the PO is written for.</td></tr>
+<tr><td>Multi Store: Lock Tag PO to Login Store</td><td>When creating a new sale, checking this option will lock the Tag Incoming Stock option under selecting a style number to the store you are currently logged into.</td></tr>
+<tr><td>Multi Store: One Calendar for All Stores</td><td>Click this option if you want the delivery calendar for this store to show the deliveries for all stores by default.</td></tr>
+
+<tr><td colspan='2'style='background:black;'> </td></tr>
+<tr><td colspan='2'><H4>Programs Options</H4></td></tr>
+<tr><td>Use Delivery Time Windows</td><td>Check this option to allow recording a delivery time window in addition to a delivery date for sales.</td></tr>
+<tr><td>Use Wireless Base Unit</td><td>Check this option if you are using a wireless base unit (e.g. 8061, 8071-C) to allow you to communicate with your hand-held scanner. Checking this option also allows you to access the Configure Wireless Scanner menu option off of the main File menu.</td></tr>
+<tr><td>Start Menu Maximized</td><td>Checking this option will cause the main WinCDS form to start in full-screen mode as opposed to the normal, windowed mode. This is useful for stores that are set up to run as a cash-register.</td></tr>
+
+<tr><td colspan='2'style='background:black;'> </td></tr>
+<tr><td colspan='2'><H4>Other Options</H4></td></tr>
+<tr><td>Labor is Taxable</td>
+	<td>
+		If Labor Charges are taxable in your state, Click this option and Apply to save.<br/><br/>
+		Available Options:
+		<ul>
+			<li><b>Never</b> - LAB charges are Never Taxable.</li>
+			<li><b>With Sale</b> - Tax LAB charges only when the sale is taxed.  If there is no TAX charged on the sale, LAB charges will be considered non-taxable as well.  If there is TAX charged on the sale, LAB charges will be taxable.</li>
+			<li><b>Always</b> - LAB Charges are Always Taxable.</li>
+		</ul>
+	</td></tr>
+<tr><td>Delivery is Taxable</td>
+	<td>
+		If Delivery Charges are taxable in your state, Click this option and Apply to save.<br/><br/>
+		Available Options:
+		<ul>
+			<li><b>Never</b> - LAB charges are Never Taxable.</li>
+			<li><b>With Sale</b> - Tax LAB charges only when the sale is taxed.  If there is no TAX charged on the sale, DEL charges will be considered non-taxable as well.  If there is TAX charged on the sale, DEL charges will be taxable.</li>
+			<li><b>Always</b> - LAB Charges are Always Taxable.</li>
+		</ul>
+	</td></tr>
+<tr><td>Default Delivery Percent</td><td>If you specify a percentage in this box, this will be the default percetage to apply to delivery charges (DEL) when creating a new sale. The value can be edited afterwards, but this will allow you to set the default rate.</td></tr>
+<tr><td>Receiving Labels</td>
+	<td>
+		Specify this option to determine which receiving labels will be printed.<br/><br/>
+		Available Options:
+		<ul>
+			<li><b>None</b> - Print NO receiving labels.</li>
+			<li><b>All</b> - Print receiving labels for ALL items.</li>
+			<li><b>Just Stock</b> - Print receivinng labels for JUST STOCK.</li>
+		</ul>
+	</td></tr>
+<tr><td>Use Cost on Shipments</td>
+	<td>
+		If Delivery Charges are taxable in your state, Click this option and Apply to save.<br/><br/>
+		Available Options:
+		<ul>
+			<li><b>Use Current</b> - Use only the latest item received to determine new item cost.</li>
+			<li><b>FIFO</b> - Basic Item Queue, First-In-First Out.</li>
+			<li><b>LIFO</b> - Basic Item List, Last-In-First-Out.</li>
+			<li><b>Average Only</b> - Uses Average Cost of all items in the system at time of receiving.</li>
+			<li><b>Manual Only</b> - Does not change prices automaticaly at all.  Prices will only be changed manually when the store owner chooses.</li>
+		</ul>
+	</td></tr>
+
+<tr><td colspan='2'style='background:black;'> </td></tr>
+<tr><td colspan='2'><H4>PO Options</H4></td></tr>
+<tr><td>Post POs to Accounts Payable</td><td>Enables or disables the automatic posting of POs to Accounts Payable. After the Accounts Payable module is up and running, you can have the cash amount of the Purchase Order automatically posted to Accounts Payable when this option is activated. </td></tr>
+<tr><td>PO Special Instructions Checked On</td><td>Removes the entire Special Instructions box on the PO form.</td></tr>
+<tr><td>Print PO w/o Cost</td><td>If you prefer to send in Purchase Orders with No Cost, select this option and Apply.</td></tr>
+<tr><td>Post Deposits to Bank Manager</td><td>Turn this on to coordinate WinCDS with the optional Bank Account Manager.</td></tr>
+
+<tr><td colspan='2'style='background:black;'> </td></tr>
+<tr><td colspan='2'><H4>PO Special Instructions</H4></td></tr>
+<tr><td colspan='2'><img src='POSpe1.bmp' /></td></tr>
+<tr><td colspan='2'>Change the Special Instructions available on the PO form.  Use the Up and Down arrows to select 1 through 4 and change the text.  Leaving them blank will revert them to the default text.</td></tr>
+</ul>
+
+</body>
+</html>

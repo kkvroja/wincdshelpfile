@@ -1,0 +1,477 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=WinCDS.chm
+Contents file=Table of Contents.hhc
+Default topic=Index.htm
+Display compile progress=Yes
+Enhanced decompilation=Yes
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=WinCDS v11.0 Help
+
+
+[FILES]
+Backing.bmp
+bulBlu04.png
+bulGre04.png
+bulOra04.png
+bulPur04.png
+bulRed04.png
+bulYel04.png
+Index.htm
+ShortcutIndex.htm
+Support\Practice.htm
+Support\KillBug.htm
+Support\EndUserAgreement.htm
+Support\Wait.htm
+Support\Equifax.htm
+Support\MMP.htm
+Support\PayPal.htm
+Support\Ashley.htm
+Support\CC.htm
+Support\QB.htm
+File\Annual Update.htm
+File\Backup.htm
+File\CCM.htm
+File\Configure Wireless Scanner.htm
+File\Download To Scanner.htm
+File\Email.htm
+File\Exit.htm
+File\Index.htm
+File\Load Original Inventory.htm
+File\Printing Rack Labels.htm
+File\Store Login.htm
+File\Password Setup.htm
+File\Restore Deleted Records.htm
+File\Restore.htm
+File\SMTP.htm
+File\Speech.htm
+File\Speech-Setup.htm
+File\Speech-Commands.htm
+File\Update.htm
+File\PrintAllTags.htm
+File\Store Setup\Index.htm
+File\Store Setup\InstallmentSetup.htm
+File\Store Setup\Commissions\Commission Method.htm
+File\Store Setup\Commissions\Commission Options.htm
+File\Store Setup\Commissions\Gross Margin Range.htm
+File\Store Setup\Commissions\Index.htm
+File\Store Setup\Cost Code-Message\Customer Message.htm
+File\Store Setup\Cost Code-Message\Factory Numbers.htm
+File\Store Setup\Cost Code-Message\Index.htm
+File\Store Setup\Cost Code-Message\Price Tag Options\Index.htm
+File\Store Setup\Cost Code-Message\Price Tag Options\Print Barcode.htm
+File\Store Setup\Cost Code-Message\Price Tag Options\Show Available Stock.htm
+File\Store Setup\Cost Code-Message\Price Tag Options\Show Manufacturer.htm
+File\Store Setup\Cost Code-Message\Price Tag Options\Show Regular Price.htm
+File\Store Setup\Cost Code-Message\Price Tag Options\Use Store Code.htm
+File\Store Setup\General\Index.htm
+File\Store Setup\General\Bill of Sale No.htm
+File\Store Setup\General\Computer Type.htm
+File\Store Setup\General\Default Sales Tax.htm
+File\Store Setup\General\Dept List.htm
+File\Store Setup\General\License No.htm
+File\Store Setup\General\Multi Sales Tax.htm
+File\Store Setup\General\Sales Copy ID.htm
+File\Store Setup\General\Sales Slip.htm
+File\Store Setup\General\Ship-to Address on POs.htm
+File\Store Setup\General\Advertising Types.htm
+File\Store Setup\General\Discounts.htm
+File\Store Setup\Misc\Index.htm
+File\Store Setup\Misc\Components.htm
+File\Store Setup\Misc\Services.htm
+File\Store Setup\Misc\Cash Drawer.htm
+File\Store Setup\Misc\DYMO Label Printer.htm
+File\Store Setup\Misc\Receiving Labels.htm
+File\Store Setup\Misc\Special Instructions.htm
+File\Store Setup\Misc\Use Cost.htm
+File\Store Setup\Misc\Installment Options\Documentation Fees.htm
+File\Store Setup\Misc\Installment Options\Index.htm
+File\Store Setup\Misc\Installment Options\Installment License.htm
+File\Store Setup\Misc\Installment Options\Late Charge %.htm
+File\Store Setup\Misc\Installment Options\Maximum Late Charge.htm
+File\Store Setup\Misc\Installment Options\Minimum Late Charge.htm
+File\Store Setup\Misc\Installment Options\Interest Rate.htm
+File\Store Setup\Misc\Installment Options\Grace Period.htm
+File\Store Setup\Misc\Installment Options\Interest Is Taxable.htm
+File\Store Setup\Misc\Installment Options\CreditIdent.htm
+File\Store Setup\Misc\Installment Options\Equifax.htm
+File\Store Setup\Misc\Installment Options\Experian.htm
+File\Store Setup\Misc\Installment Options\TransUnion.htm
+File\Store Setup\Misc\Options.htm
+File\Store Setup\Sales Staff\Sales Staff.htm
+File\Store Setup\Sales Staff\SecurityZones.htm
+File\Web\index.htm
+File\Web\generate.htm
+File\Web\update.htm
+File\Web\monitor.htm
+File\Web\OpenWeb.htm
+Financing Module\Index.htm
+Financing Module\Banking\Daily Processing.htm
+Financing Module\Banking\Index.htm
+Financing Module\Banking\Setup.htm
+Financing Module\General Ledger\Daily Processing.htm
+Financing Module\General Ledger\Index.htm
+Financing Module\General Ledger\Setup.htm
+Financing Module\Payables\Daily Processing.htm
+Financing Module\Payables\Index.htm
+Financing Module\Payables\Setup.htm
+Financing Module\Payroll\Daily Processing.htm
+Financing Module\Payroll\Index.htm
+Financing Module\Payroll\Setup.htm
+Financing Module\QB\Index.htm
+Financing Module\QB\BankDeposits.htm
+Financing Module\QB\MonthEnd.htm
+Financing Module\QB\QbSetup.htm
+Financing Module\QB\QbSetup-Accounts.htm
+Financing Module\QB\ReceivePO.htm
+Financing Module\QB\QB-TransferSummary.htm
+Getting Started\Entering Open Sales.htm
+Getting Started\Index.htm
+Getting Started\Loading Original Inventory.htm
+Getting Started\Print Preview.htm
+Installment\Customer Letter.htm
+Installment\Edit Accounts.htm
+Installment\Index.htm
+Installment\Old Account Setup.htm
+Installment\Payment and View.htm
+Installment\Payment Estimator.htm
+Installment\Void Contract.htm
+Installment\AddOnAcc.htm
+Installment\Credit Applications\Add New Applications.htm
+Installment\Credit Applications\Edit Old Applications.htm
+Installment\Credit Applications\Index.htm
+Installment\Credit Applications\Equifax Panel.htm
+Installment\Reports\A-R Ageing Report.htm
+Installment\Reports\A-R Delinquent Report.htm
+Installment\Reports\A-R Trial Balance.htm
+Installment\Reports\Closed Account Report.htm
+Installment\Reports\Export to Credit Bureau.htm
+Installment\Reports\Index.htm
+Installment\Reports\Late Charges and Notices.htm
+Installment\Reports\Monthly Billing.htm
+Installment\Reports\New Account Report.htm
+Installment\Reports\Write Off Report.htm
+Installment\Reports\Repo Report.htm
+Installment\Reports\Legal Report.htm
+Installment\Reports\WhosLate.htm
+Installment\Reports\RestoreVoid.htm
+Inventory\Check Order Status.htm
+Inventory\Commissions.htm
+Inventory\Reports\CustomTagDesigner.htm
+Inventory\Factory Shipments.htm
+Inventory\Index.htm
+Inventory\Inventory Maintenance.htm
+Inventory\ItemAlign.htm
+Inventory\New Items.htm
+Inventory\StoreTransfers.htm
+Inventory\StoreTransfers-Create.htm
+Inventory\StoreTransfers-View.htm
+Inventory\StoreTransfers-RepOpen.htm
+Inventory\StoreTransfers-RepPrev.htm
+Inventory\Update Sales Comparison Report.htm
+Inventory\View Stock Items.htm
+Inventory\Reports\Barcode Inventory Check.htm
+Inventory\Package Ticket Builder.htm
+Inventory\Reports\Special Event Tags.htm
+Inventory\Reports\StoreCatalog.htm
+Inventory\Customer Deliveries\Delivery Calendar.htm
+Inventory\Customer Deliveries\Delivery Map.htm
+Inventory\Customer Deliveries\Delivery Tickets.htm
+Inventory\Customer Deliveries\Index.htm
+Inventory\Customer Deliveries\Multi-Store Billing.htm
+Inventory\Customer Deliveries\Multi-Store Transfer Billing.htm
+Inventory\Customer Deliveries\Multi-Store Transfer Lists.htm
+Inventory\Customer Deliveries\Pull Loads.htm
+Inventory\Package Ticket Builder\Make Packages.htm
+Inventory\Package Ticket Builder\Edit Packages.htm
+Inventory\Package Ticket Builder\Master Kit List.htm
+Inventory\Package Ticket Builder\Kits Inventory Look Up.htm
+Inventory\Purchase Orders\Ashley\index.htm
+Inventory\Purchase Orders\Combine.htm
+Inventory\Purchase Orders\Edit-View POs.htm
+Inventory\Purchase Orders\EmailPOs.htm
+Inventory\Purchase Orders\Fax-Print POs.htm
+Inventory\Purchase Orders\Index.htm
+Inventory\Purchase Orders\Open Purchase Orders.htm
+Inventory\Purchase Orders\Order for Stock.htm
+Inventory\Purchase Orders\Orders not Acknowledged.htm
+Inventory\Purchase Orders\OrdersNotAcknowledged-Email.htm
+Inventory\Purchase Orders\OrderTracking.htm
+Inventory\Purchase Orders\Overdue Orders.htm
+Inventory\Purchase Orders\OverdueOrders-Email.htm
+Inventory\Purchase Orders\Quick Print POs.htm
+Inventory\Purchase Orders\Receive Shipments.htm
+Inventory\Purchase Orders\Receiving Report.htm
+Inventory\Purchase Orders\Void Stock POs.htm
+Inventory\Reports\Best Sellers List.htm
+Inventory\Reports\Index.htm
+Inventory\Reports\Inventory Reports.htm
+Inventory\Reports\Manufacturers List.htm
+Inventory\Reports\Margin Reports.htm
+Inventory\Reports\Bar Code Data Collector.htm
+Inventory\Reports\SS Locations.htm
+Inventory\Reports\SS Report.htm
+Inventory\Reports\Dog List.htm
+Inventory\Reports\Serial No Tracking.htm
+Mailing\Add-Edit Names.htm
+Mailing\Export to Floppy.htm
+Mailing\Index.htm
+Mailing\Print Mailing Labels.htm
+Mailing\Advertising Report By Zip.htm
+Mailing\MailBook.htm
+Mailing\MailBookBlaster.htm
+Mailing\Merge.htm
+Order\Cash Drawer Entries.htm
+Order\Customer Adjustments.htm
+Order\Customer Stock Preview.htm
+Order\Deliver Sales.htm
+Order\Index.htm
+Order\New Sales 1.htm
+Order\New Sales 2.htm
+Order\New Sales 3.htm
+Order\Payment on Account.htm
+Order\View Sale.htm
+Order\Void Sale.htm
+Order\Service\Index.htm
+Order\Service\Customer Service Module.htm
+Order\Service\DamagedStock.htm
+Order\Service\PartsOrder.htm
+Order\Service\Open Service Call Report.htm
+Order\Service\OpenPartsOrders.htm
+Order\Service\PartsOrdersBillingReport.htm
+Order\Reports\Backorder Report.htm
+Order\Reports\Credit Sales Report.htm
+Order\Reports\Customer History.htm
+Order\Reports\Index.htm
+Order\Reports\Lay-A-Way Report.htm
+Order\Reports\Sales Tax Report.htm
+Order\Reports\Undelivered Sales Report.htm
+Order\Reports\Daily Audit Report.htm
+Order\Reports\Daily Audit Report2.htm
+Order\Reports\Advertising Report.htm
+Order\Cash Register.htm
+Scanner\Index.htm
+Scanner\onoff.htm
+Scanner\restart.htm
+Scanner\functions.htm
+Scanner\keypad.htm
+Scanner\system.htm
+Scanner\phy.htm
+Scanner\itm.htm
+Scanner\utl.htm
+Scanner\utl-dwn.htm
+Scanner\utl-rmt.htm
+Scanner\utl-set.htm
+Scanner\utl-wln.htm
+Scanner\wht.htm
+Scanner\wht-pll.htm
+Scanner\wht-rcv.htm
+Scanner\wht-stl.htm
+Scanner\wht-sts.htm
+Scanner\sls.htm
+Scanner\sls-clc.htm
+Scanner\sls-new.htm
+Installment\Interest Notice.htm
+File\Store Setup\Misc\Installment Options\Revolving.htm
+File\Store Setup\Misc\Installment Options\Allow Revolving.htm
+File\Store Setup\Misc\Installment Options\Minimum Payment.htm
+
+[ALIAS]
+Advertising Report=IDH_49700
+IDH_10000=Index.htm
+IDH_10001=ShortcutIndex.htm
+IDH_10097=Support\KillBug.htm
+IDH_10098=Support\EndUserAgreement.htm
+IDH_10099=Support\Practice.htm
+IDH_20000=Getting Started\Index.htm
+IDH_21000=Getting Started\Print Preview.htm
+IDH_30000=File\Index.htm
+IDH_30010=File\Email.htm
+IDH_30020=File\Update.htm
+IDH_30030=File\PrintAllTags.htm
+IDH_30040=File\Ashley.htm
+IDH_31000=File\Store Setup\Index.htm
+IDH_31100=File\Store Setup\General\Index.htm
+IDH_31110=File\Store Setup\General\License No.htm
+IDH_31120=File\Store Setup\General\Sales Slip.htm
+IDH_31130=File\Store Setup\General\Ship-to Address on POs.htm
+IDH_31140=File\Store Setup\General\Default Sales Tax.htm
+IDH_31150=File\Store Setup\General\Multi Sales Tax.htm
+IDH_31160=File\Store Setup\General\Sales Copy ID.htm
+IDH_31170=File\Store Setup\General\Dept List.htm
+IDH_31180=File\Store Setup\General\Advertising Types.htm
+IDH_31190=File\Store Setup\General\Discounts.htm
+IDH_31200=File\Store Setup\Misc\Components.htm
+IDH_31300=File\Store Setup\Cost Code-Message\Index.htm
+IDH_31310=File\Store Setup\Cost Code-Message\Price Tag Options\Index.htm
+IDH_31311=File\Store Setup\Cost Code-Message\Price Tag Options\Show Regular Price.htm
+IDH_31312=File\Store Setup\Cost Code-Message\Price Tag Options\Show Manufacturer.htm
+IDH_31313=File\Store Setup\Cost Code-Message\Price Tag Options\Use Store Code.htm
+IDH_31314=File\Store Setup\Cost Code-Message\Price Tag Options\Show Available Stock.htm
+IDH_31315=File\Store Setup\Cost Code-Message\Price Tag Options\Print Barcode.htm
+IDH_31320=File\Store Setup\Cost Code-Message\Customer Message.htm
+IDH_31330=File\Store Setup\Cost Code-Message\Factory Numbers.htm
+IDH_31400=File\Store Setup\Sales Staff\Sales Staff.htm
+IDH_31410=File\Store Setup\Sales Staff\SecurityZones.htm
+IDH_31500=File\Store Setup\Commissions\Index.htm
+IDH_31510=File\Store Setup\Commissions\Commission Options.htm
+IDH_31520=File\Store Setup\Commissions\Gross Margin Range.htm
+IDH_31530=File\Store Setup\Commissions\Commission Method.htm
+IDH_31600=File\Store Setup\Misc\Index.htm
+IDH_31610=File\Store Setup\General\Bill of Sale No.htm
+IDH_31620=File\Store Setup\Misc\Options.htm
+IDH_31621=File\Store Setup\Misc\Receiving Labels.htm
+IDH_31630=File\Store Setup\Misc\Installment Options\Index.htm
+IDH_31631=File\Store Setup\Misc\Installment Options\Installment License.htm
+IDH_31632=File\Store Setup\Misc\Installment Options\Interest Rate.htm
+IDH_31633=File\Store Setup\Misc\Installment Options\Documentation Fees.htm
+IDH_31634=File\Store Setup\Misc\Installment Options\Late Charge %.htm
+IDH_31635=File\Store Setup\Misc\Installment Options\Maximum Late Charge.htm
+IDH_31636=File\Store Setup\Misc\Installment Options\Minimum Late Charge.htm
+IDH_31637=File\Store Setup\Misc\Installment Options\Print Payment Books.htm
+IDH_31700=File\Store Setup\Misc\Services.htm
+IDH_32000=File\Index.htm
+IDH_33000=File\Index.htm
+IDH_34000=File\Password Setup.htm
+IDH_36000=File\Restore Deleted Records.htm
+IDH_37000=File\Load Original Inventory.htm
+IDH_37020=File\Printing Rack Labels.htm
+IDH_37040=File\Configure Wireless Scanner.htm
+IDH_37060=File\Web\generate.htm
+IDH_37070=File\Web\update.htm
+IDH_37080=File\Web\monitor.htm
+IDH_37090=File\Download To Scanner.htm
+IDH_38000=File\Exit.htm
+IDH_40000=Order\Index.htm
+IDH_41000=File\Store Login.htm
+IDH_42000=Order\New Sales 1.htm
+IDH_42002=Order\New Sales 2.htm
+IDH_42003=Order\New Sales 3.htm
+IDH_42500=Order\Cash Register.htm
+IDH_43000=Order\Deliver Sales.htm
+IDH_44000=Order\Payment on Account.htm
+IDH_45000=Order\View Sale.htm
+IDH_46000=Order\Void Sale.htm
+IDH_47000=Order\Cash Drawer Entries.htm
+IDH_47500=File\CCM.htm
+IDH_48000=Order\Customer Stock Preview.htm
+IDH_49000=Order\Customer Adjustments.htm
+IDH_49500=Order\Service\Index.htm
+IDH_49501=Order\Service\Customer Service Module.htm
+IDH_49502=Order\Service\DamagedStock.htm
+IDH_49503=Order\Service\PartsOrder.htm
+IDH_49504=Order\Service\Open Service Call Report.htm
+IDH_49505=Order\Service\OpenPartsOrders.htm
+IDH_49506=Order\Service\PartsOrdersBillingReport.htm
+IDH_49600=Order\Reports\Index.htm
+IDH_49620=Order\Reports\Daily Audit Report.htm
+IDH_49630=Order\Reports\Undelivered Sales Report.htm
+IDH_49640=Order\Reports\Lay-A-Way Report.htm
+IDH_49650=Order\Reports\Backorder Report.htm
+IDH_49660=Order\Reports\Credit Sales Report.htm
+IDH_49670=Order\Reports\Customer History.htm
+IDH_49680=Order\Reports\Sales Tax Report.htm
+IDH_49700=Order\Reports\Advertising Report.htm
+IDH_50000=Inventory\Index.htm
+IDH_50500=Inventory\ItemAlign.htm
+IDH_51000=Inventory\New Items.htm
+IDH_53000=Inventory\Factory Shipments.htm
+IDH_54000=Inventory\StoreTransfers.htm
+IDH_54010=Inventory\StoreTransfers-Create.htm
+IDH_54020=Inventory\StoreTransfers-View.htm
+IDH_54030=Inventory\StoreTransfers-RepOpen.htm
+IDH_54040=Inventory\StoreTransfers-RepPrev.htm
+IDH_54500=Inventory\Reports\StoreCatalog.htm
+IDH_55000=Inventory\View Stock Items.htm
+IDH_56000=Inventory\Inventory Maintenance.htm
+IDH_57000=Inventory\Purchase Orders\Index.htm
+IDH_57100=Inventory\Purchase Orders\Order for Stock.htm
+IDH_57200=Inventory\Purchase Orders\Edit-View POs.htm
+IDH_57300=Inventory\Purchase Orders\Quick Print POs.htm
+IDH_57400=Inventory\Purchase Orders\Fax-Print POs.htm
+IDH_57450=Inventory\Purchase Orders\EmailPOs.htm
+IDH_57500=Inventory\Purchase Orders\Receive Shipments.htm
+IDH_57600=Inventory\Purchase Orders\Void Stock POs.htm
+IDH_57700=Inventory\Purchase Orders\Receiving Report.htm
+IDH_57750=Inventory\Purchase Orders\Combine.htm
+IDH_57800=Inventory\Purchase Orders\Orders not Acknowledged.htm
+IDH_57805=Inventory\Purchase Orders\OrdersNotAcknowledged-Email.htm
+IDH_57850=Inventory\Purchase Orders\Overdue Orders.htm
+IDH_57855=Inventory\Purchase Orders\OverdueOrders-Email.htm
+IDH_57900=Inventory\Purchase Orders\Open Purchase Orders.htm
+IDH_58000=Inventory\Check Order Status.htm
+IDH_59000=Inventory\Customer Deliveries\Index.htm
+IDH_59100=Inventory\Customer Deliveries\Pull Loads.htm
+IDH_59200=Inventory\Customer Deliveries\Delivery Tickets.htm
+IDH_59300=Inventory\Customer Deliveries\Multi-Store Billing.htm
+IDH_59400=Inventory\Customer Deliveries\Multi-Store Transfer Billing.htm
+IDH_59500=Inventory\Customer Deliveries\Multi-Store Transfer Lists.htm
+IDH_59600=Inventory\Customer Deliveries\Delivery Calendar.htm
+IDH_59650=Inventory\Customer Deliveries\Delivery Map.htm
+IDH_59700=Inventory\Commissions.htm
+IDH_59710=Inventory\Reports\Barcode Inventory Check.htm
+IDH_59730=Inventory\Package Ticket Builder\Make Packages.htm
+IDH_59740=Inventory\Package Ticket Builder\Edit Packages.htm
+IDH_59750=Inventory\Package Ticket Builder\Master Kit List.htm
+IDH_59760=Inventory\Package Ticket Builder\Kits Inventory Look Up.htm
+IDH_59770=Inventory\Reports\Special Event Tags.htm
+IDH_59800=Inventory\Reports\CustomTagDesigner.htm
+IDH_59900=Inventory\Reports\Index.htm
+IDH_59910=Inventory\Reports\Inventory Reports.htm
+IDH_59920=Inventory\Reports\Margin Reports.htm
+IDH_59930=Inventory\Reports\Manufacturers List.htm
+IDH_59940=Inventory\Reports\Best Sellers List.htm
+IDH_59950=Inventory\Reports\Bar Code Data Collector.htm
+IDH_59960=Inventory\Reports\SS Report.htm
+IDH_59970=Inventory\Reports\Dog List.htm
+IDH_59980=Inventory\Reports\Serial No Tracking.htm
+IDH_59990=Inventory\Reports\SS Locations.htm
+IDH_60000=Financing Module\Index.htm
+IDH_67000=Financing Module\QB\Index.htm
+IDH_67100=Financing Module\QB\BankDeposits.htm
+IDH_67200=Financing Module\QB\MonthEnd.htm
+IDH_67300=Financing Module\QB\QbSetup.htm
+IDH_67400=Financing Module\QB\ReceivePO.htm
+IDH_70000=Mailing\Index.htm
+IDH_71000=Mailing\Add-Edit Names.htm
+IDH_72000=Mailing\Print Mailing Labels.htm
+IDH_73000=Mailing\Export to Floppy.htm
+IDH_73400=Mailing\Advertising Report By Zip.htm
+IDH_73500=Mailing\MailBook.htm
+IDH_73600=Mailing\MailBookBlaster.htm
+IDH_73700=Mailing\Merge.htm
+IDH_80000=Installment\Index.htm
+IDH_81000=Installment\Payment Estimator.htm
+IDH_82000=Installment\Payment and View.htm
+IDH_83000=Installment\Edit Accounts.htm
+IDH_84000=Installment\Void Contract.htm
+IDH_85000=Installment\Old Account Setup.htm
+IDH_85500=Installment\AddOnAcc.htm
+IDH_86000=Installment\Credit Applications\Index.htm
+IDH_86100=Installment\Credit Applications\Add New Applications.htm
+IDH_86200=Installment\Credit Applications\Edit Old Applications.htm
+IDH_86300=Installment\Credit Applications\Equifax Panel.htm
+IDH_87000=Installment\Reports\Index.htm
+IDH_87100=Installment\Reports\Monthly Billing.htm
+IDH_87200=Installment\Reports\Late Charges and Notices.htm
+IDH_87300=Installment\Reports\A-R Ageing Report.htm
+IDH_87400=Installment\Reports\A-R Delinquent Report.htm
+IDH_87500=Installment\Reports\A-R Trial Balance.htm
+IDH_87600=Installment\Reports\New Account Report.htm
+IDH_87700=Installment\Reports\Closed Account Report.htm
+IDH_87710=Installment\Reports\Write Off Report.htm
+IDH_87720=Installment\Reports\Repo Report.htm
+IDH_87730=Installment\Reports\Legal Report.htm
+IDH_87800=Installment\Reports\Export to Credit Bureau.htm
+IDH_87810=Installment\Reports\RestoreVoid.htm
+IDH_87820=Installment\Reports\WhosLate.htm
+IDH_99900=Support\Wait.htm
+
+[MAP]
+#include Map.h
+
+[INFOTYPES]
+

@@ -1,0 +1,201 @@
+<html>
+
+<head>
+<title>Generate Website - Web Development</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<meta name="keywords" content="web, generator, generate, website">
+<meta name="description" content="">
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="File Menu">
+	<param name="Keyword" value="Web">
+	<param name="Keyword" value="Web Development">
+	<param name="Keyword" value="Generate Website">
+</OBJECT>
+
+</head>
+
+<body>
+<h1>Generate Website</h1>
+
+<img border=0 alt='Generator' src='generate.bmp'><br/><br/>
+
+
+<h4>Merchant Starter</h4>
+
+<table align=center border=1 cellpadding=2 cellspacing=3 style="background: pink" bordercolor=black>
+<tr bgcolor=lightblue><td>Task</td><td>Example</td></tr>
+<tr><td>Create a YahooID:</td><td>                     simplifiedpos</td></tr>
+<tr><td>Create (and remember your password):</td><td>  (Yahoo Password)</td></tr>
+<tr><td>Security Key:</td><td>                         (Yahoo Security Key)</td></tr>
+<tr><td>Decide on a domain name:</td><td>              simplifiedposonline.com</td></tr>
+</table>
+<br/>
+
+<h3>NOTABLE SITES AND INFORMATION:</h3>
+
+<ul>
+  <li>Services:    http://smallbusiness.yahoo.com/services/index.php
+    <ul>
+      <li>Store Manager</li>
+      <li>Web Hosting Control Panel  (Create & Update -> File Manager)</li>
+      <li>Email Control Panel</li>
+    </ul>
+  <br/><br/>
+  </li>
+  <li>FTP Site:     ftp.<your-domain-name>.com          (e.g.  ftp.simplifiedposonline.com)</li>
+  <li>FTP Login:    <YahooID>@<your-domain-name>.com    (e.g.  simplifiedpos@simplifiedposonline.com) </li>
+  <li>FTP Password: (Yahoo Password for <YahooID>)</li>
+</ul>
+
+<h3>Guides and Resources</h3>
+http://help.yahoo.com/help/us/store/guides/index.html<br/><br/>
+
+
+<h2>Steps to Establishing a website</h2>
+It will take you apporoximately 2-3 hours to do your initial site setup.<br/>
+You should be able to begin taking orders as soon as your Merchant Account is established.<br/>
+<br/>
+Run WinCDS and select Generate Web Pages from the 'Web' Menu off the main form.<br/>
+Select all options, and click 'Build'<br/>
+<br/>
+Establish your items  <font color=white style="font-weight: bold">(You should only ever have to do this once!)</font><br/>
+<ul>
+	<li>Goto Store Manager (Off of Services Page)
+	<li>Select CATALOG MANAGER
+	<li>Select 'Manage Your Tables'
+	<li>'Create New Table'
+        <ol>
+	  <li>Step 1: Enter 'items' for Table Name (and any description you want if you desire)
+	  <li>Step 2: Select 'Next' to keep the mandatory fields
+	  <li>Step 3: Select the following Store Fields:  Caption, Abstract, Label
+          <li>        Click 'Next'
+	  <li>Step 4: Select the following Shopping Fields:  Product-url, Manufacturer
+                Click 'Next'
+	  <li>Step 5: Click 'Add Another Custom Field'
+		Add the following Custom Fields:  'Department', Format='Text', Required=No, Leave Default Value Blank
+                Click 'Next'
+	  <li>Step 6: Verify that you have 14 fields in your table.
+                Click 'Save'
+	</ol>
+</li>
+</ul>
+<br/><br/>
+
+Now its time to put items into your Table (This should be done when changes are made to list of items (not changes in available quantity))<br/>
+<ul>
+	<li>From the CATALOG MANAGER
+	<li>Select 'Upload' or 'Upload Items'
+	<li>Click the 'Upload' button
+	<li>Select the destination table:  'items'
+	<li>Choose Action:  Rebuild
+	<li>Click 'Browse' and select the items file (e.g.  c:\inventpx\webtemplate\2data.csv)
+	<li>Click the 'Upload' button
+	<li>In the Warnings and Errors Box, You should see:<br/>
+		"No warnings or errors to report. Please choose Commit to update your database."<br/><br/>
+	<li>Click 'Commit' to update the database.
+	<li>Click 'Rebuild' to confirm the commit action.
+	<li>The database is now built, but it is not 'live' yet (usable by the website).
+	<li>To make it 'live', now click on 'Publishing', and then 'Publish Catalog'.
+	<li>The button should gray-out and the Publish History should indicate that the catalog has been published.
+	<li>Click on 'Store Manager' to return.
+</ul>
+<br/><br/>
+
+Now that you have your items installed, you can install the pages built in WinCDS.<br/>
+	Goto the Yahoo File Manager (once you're logged in, it is availble here: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>http://us.1.p.webhosting.yahoo.com/filemanager)</u>
+<br/><br/>
+	Select 'Upload Files'<br/><br/>
+
+	You need to upload 2 files:  
+<ul>		
+		<li>c:\inventpx\webtemplate\package.zip
+		<li>c:\inventpx\webtemplate\templates\unpack.php
+</ul>
+        When you're done uploading those two files, return to the File Manager from the File Upload.
+	You should see the two files in the directory now down below.
+<br/><br/>
+	To the right of the file unpack.php should be a link entitled 'View'.<br/>
+	Click the 'View' on unpack.php and wait for the page to finish loading.<br/>
+	Your website, including all images and directories should now be unpacked into your directory.<br/>
+	To verify this, you can reload the file manager page and see all the files unpacked.<br/>
+	Additionally, you can now visit your store website:   www.<your-domain-name>.com (e.g.  www.simplifiedposonline.com)<br/>
+<br/><br/>
+For this next step, you will need to create a new email account to process your order emails:
+<ul>
+	<li>Goto EMAIL CONTROL PANEL From the Serivces Page
+	<li>You should see that you have about 100 email accounts availble to create.
+	<li>You can use this process to create as many as you want, although this will only walk you through
+	the process required to create the accounts required by our system.
+	<li>Click 'Create Address'
+	<li>Enter the name for the mailbox (e.g. 'orders').
+	<li>You need to create a mailbox, not a mail forward, so click 'Create Mailbox'
+	<li>Because WinCDS will read the orders directly from Yahoo, select the option: 'POP Email Only mailbox'
+	<li>Click 'Continue'
+	<li>Enter the password for the mailbox in both boxes.
+	<li>Enter your email address in the 'Send instructions by email' box.
+	<li>Click the checkbox agreeing to the 'Terms of Service'.
+	<li>Click 'Submit'
+	<li>Read the summary information
+	<li>Click 'Return to Manage Email Addresses'
+	<li>View the information in the table below to verify the address was created successfully.
+
+Now that you've got your items and your web pages setup, you need to prepare for the ordering process:
+	<li>Goto the STORE MANAGER
+	<li>Under 'Order Settings', Go through each item and configure your site as you need to.
+	<li>Under 'Order Forms', Read through each field and verify that all your settings are correct.
+	<ul>
+		<li>Espeically take note of 'Checkout URLs', 'Order Confirmation', 'Order Status',
+		<li>Also take note that you can preview your order forms with the button on the left top 
+and bottom of the page.
+	</ul>
+	<li>Under 'Order Emails' you will set up how to process your orders.
+	<ul>
+		<li>To use automated, real-time order processing under WinCDS, enter the email address for order processing under 'Automatic Order Processing'.
+		<li>Select Send 'Immediately'
+		<li>Select Format 'XML Format'.
+		<li>Click 'Done'
+	</ul>
+	<li>Under 'Shipment and Order Status' you can control confirmation emails to the customer through Yahoo.
+	<ul>
+		<li>Edit fields as desired.
+		<li>Click 'Update' When Done.
+	</ul>
+	<li>Under 'Configure Inventory', you will hook tell Yahoo what computer to ask to get available quantities of items in real time.
+	<ul>
+		<li>Start a copy of WinCDS and Open the Real-time Inventory Monitor.
+		<li>On the 'Configure Inventory' Page, Select 'Real-Time Inventory' under 'Inventory Options'
+		<li>Under 'Settings', determine your IP address (try visiting 'www.ipchicken.com' if you dont know yours)
+		<li>Enter this value into 'Call Script':
+		<ul>
+			<li>http://&lt;your-ip-address&gt;:4242/InvCheck.html
+			<li>For example, if your ip address is 111.222.333.444, enter:  http://111.222.333.444:4242/InvCheck.html
+		</ul>
+	</ul>
+	<li>Under 'Payment Methods' you set up how you want to handle money.
+	<ul>
+		<li>"Yahoo! Store requires merchants to have a merchant account in order to open for business."
+		<li>You can either use Paymentech or an existing merchant account.
+		<li>They are required to be a "FDMS Nashville platform-compatible merchant account provider".
+		<li>You will need:
+		<ul>
+			<li>Name of Merchant Bank
+			<li>Merchant Number
+			<li>MID (Merchant Identification)
+			<li>TID (Terminal Identification)
+		</ul>
+		<li>After your account is setup, select the cards they are authorized to process and that you wish to accept.
+		<li>Click Update when you are finished.
+	</ul>
+	<li>Under 'Shipping Manager'
+	<li>Under 'Tax Rates'
+	<li>Under 'Foreign Orders', we suggest you Select 'US Only'
+		Click 'Update' when you are finsihed.
+	<li>Under 'Shipping & Tax Text', you can see how your shipping and tax settings will function.
+
+	<li>When you are done, Return to STORE MANAGER and click 'Publish Order Settings' under 'Order Settings'
+	This will make your settings live and the link should become plain text when it is done.
+</ul>
+
+</body>
+</html>

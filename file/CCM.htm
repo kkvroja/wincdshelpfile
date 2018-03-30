@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Credit Card Manager</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="Deliver Sales, Order Entry">
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="File Menu">
+	<param name="Keyword" value="System Utilities, Credit Card manager">
+	<param name="Keyword" value="Credit Card Manager">
+</OBJECT>
+</head>
+<body>
+<h1>Credit Card Manager</h1>
+<img src=CCM.bmp /><br/><br/>
+
+<h2>Credit Card Manager</h2>
+From this form, you can configure and perform maintenance regarding your X-Charge Credit Card processing.<br/><br/>
+
+<h3>Options</h3>
+Click <b>Options</b> to open an X-Charge panel to edit X-Charge options.
+<br/><br/>
+<img src=CCMOpt.bmp /><br/><br/>
+
+<h3>X-Charge Settings</h3>
+Click <b>Settings</b> to change options such as the Transaction Folder for WinCDS to communicate to X-Charge.<br/><br/>
+The current Transaction Folder(s) that will be used displayed in the bottom right of this panel.  Whether you use
+the default WinCDS Transaction Folders or specify your own through this panel, the current folder for the store
+selected in the top right of this form will always be displayed at the bottom.
+<h4>Your X-Charge Transaction Folder</h4>
+By default, WinCDS uses your server's CDSData directory.  If this computer is the server, your transaction folder
+will be automatically configured to be locaed in C:\CDSData\X-Charge\LocalTran.<br/><br/>
+<h4>MOTO Account</h4>
+Some dealers use a MOTO account for all manually entered credit card transactions.  If you need to have a MOTO account,
+you can do this automatically by simply creating a directory named C:\CDSData\X-Charge\LocalTran-MOTO.
+If you have a MOTO directory set up, the software will automatically detect this and send all manually swiped transactions
+there instead of the normal LocalTran folder.<br/><br/>
+<h4>Individual Store Transaction Folders</h4>
+If you require that each store use a different merchant account, and hence use separate Transaction Folders, WinCDS
+can automatically handle this.  Simply create a folder for each individual store.  For example, if you have three (3)
+stores, each needing its own directory, simply create, inside of the C:\CDSData\X-Charge folder, the following
+directories:
+<ul>
+<li>C:\CDSData\X-Charge\LocalTran1</li>
+<li>C:\CDSData\X-Charge\LocalTran2</li>
+<li>C:\CDSData\X-Charge\LocalTran3</li>
+<li>C:\CDSData\X-Charge\LocalTran-MOTO (if a MOTO account is required)</li>
+</ul>
+<h4>Manually Specified Transaction Folders</h4>
+If you choose to, you can also set folders <B>PER COMPUTER</B>. You can specify them here and they will be used
+instead of the WinCDS defaults, but this will be necessary to set on each computer as this will be stored in your
+system registry, and not in the WinCDS configuration files.  You can either set a Transaction Folder for all locations or for specific stores.
+You can also set a Transaction Folder for All Locations, and then specify a folder for one of the stores.  If no
+specific store entry is specified, if will use the setting for All Stores.  If these are not set, the software will use
+the default WinCDS settings.
+<h5>Verifying Transaction Folder Settings</h5>
+To verify your Transaction Folder settings, simply click the up and down arrows in the top right of this form to change
+store number.  Simply check the Transaction Folder(s) in use on the bottom to make sure they are what you want.
+<br/><br/>
+
+<h3>Transaction Central Settings</h3>
+There are no settings for Transaction Central on the CC Admin Panel.
+<br/><br/>
+
+<img src=CCM2.bmp /><br/><br/>
+
+<h3>Returns</h3>
+Be sure to enter the amount for all return transactions from this screen.  If you fail to do so, you
+will be prompted for the amount.<br/><br/>
+From this form, you can perform the following operations:<br/><br/>
+<table border=9 cellspacing=0 cellpadding=4 bgcolor=black><tr><td>
+<table border=2 cellpadding=3 cellspacing=0 bordercolor=black bgcolor=#CCCCFF>
+<tr bgcolor=lightblue><td width=30%>Operation</td><td>Description</td></tr>
+<tr><td>Return CC Purchase</td><td>This allows you to return a Credit Card Transation manually, if necessary.</td></tr>
+<tr><td>Return Debit Purchase</td><td>This allows you to make a Debit Card Return Transaction manually if you need to.</td></tr>
+<tr><td>Return Gift Card Purchase</td><td>If you have the swiping of Gift Cards available, you can return Gift cards through this function, if necessary.</td></tr>
+<tr><td>Obtain Report</td><td>This allows you to query X-Charge to get a report of Credit Card transactions run in the past day.</td></tr>
+</table>
+</td></tr></table>
+<br>
+<font size=-2 color=green>Note:  Only the transactions types supported by your configuration will be available. Otherwise,
+they will not show up in the list.</font> 
+</body>
+</html>

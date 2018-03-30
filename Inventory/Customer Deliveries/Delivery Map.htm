@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Delivery Map</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Customer Deliveries">
+	<param name="Keyword" value="Delivery Map">
+	<param name="Keyword" value="Map and Route">
+	<param name="Keyword" value="Route Deliveries">
+</OBJECT>
+</head>
+<body>
+
+<h1>Delivery Map</h1>
+
+<font size=+1 color=red>NOTE:  Requires <a href='\Support\MMP.htm'>Microsoft MapPoint</a> Software</font><br/>
+<br><br>
+<img src='Delivery Map.bmp' align=center><br><br>
+
+This form allows you to route selected deliveries.  The route map displayed, with the directions listed above
+and the stops listed to the left.<br><br>
+You can either split up the loads at the point, or go on to printing the route.
+
+<h3>Printing the Route</h3>
+To print the route, first select the type of printout you want from Microsoft MapPoint.  The options are:
+<br><br>
+<table width=400 bgcolor=white align=center>
+<tr bgcolor=lightblue><td>Option</td><td>Description</td></tr>
+<tr><td>Strips</td><td>This option will print a small strip map, followed by driving directions.</td></tr>
+<tr><td>Full</td><td>This will print a full-paged map for increased detail.</td></tr>
+<tr><td>Turns</td><td>This will print a small map for every important turn.</td></tr>
+<tr><td>Dirs</td><td>This will print out driving directions only, with no map.</td></tr>
+<tr><td>Map</td><td>This prints out an alternative map.</td></tr>
+<tr><td>CSV</td><td>This will put write a file to your computer with the route in a format readable by programs such as Microsoft Excel.</td></tr>
+</table>
+<br>
+Once you have selected the map type, click <b>Print</b>.  You can print multiple map types.  
+Simply select the next type and click <b>Print</b> again
+
+<h3>Splitting the deliveries</h3>
+To split the delivery loads between multiple trucks, click <b>Split Loads</b>.<br>
+You now will see a list of all the current stops, plus which deliveries are on this truck.  <br>
+<img src='Split Loads.bmp'><br>
+By default, all deliveries are on the first truck.  To remove or add all the stops to the current truck,
+click the <b>&lt;&lt;&lt;</b> or <b>&gt;&gt;&gt;</b> buttons, respectively.<br>  To add or remove an
+individual stop, simply put the mouse over it, press and hold your left mouse button, and drag it to
+the other box (Called Dragging and dropping).  Simply Drag and Drop all the stops until your truck
+is loaded or unloaded to your desires.<br>
+<br>
+To help you decide which stops should go on which truck, there are two things to help you.  First, you can
+click on <b>Details</b> and more information will be displayed for each stop.  Click this again to return to
+the default view.<br>
+<img src='Split Loads w Details.bmp'><br><br>
+You can also click on <b>Show Stops</b> to show a map below the lists to see where they are, without
+calculating a route between them.  Click this button again to hide them.<br>
+<img src='Split Loads w Stops.bmp' width='90%' align=center><br><br>
+
+<h4>Routing the current truck</h4>
+To route the truck that you have set up under <b>Split Loads</b>, simply click the <b>Route Stops</b> button.
+This will route the stops in the current truck.  If this is acceptable, you can click <b>Print</b> to
+print the route for these stops.  When you return to the <b>Split Loads</b>, the stops you have already
+routed will be slightly transparent to indicate that they have already been routed.  Repeat this until
+all the stops have been routed.
+
+<h3>Configure Optimization</h3>
+<img src="RouteConfig.bmp" align="right" />
+You can adjust how your trucks will be routed by using the configuration panel.  You can set the following options:
+<table bgcolor=white border=1 cellspacing=1 cellpadding=1>
+<tr bgcolor=lightblue><td>Field</td><td>Description</td></tr>
+<tr><td>Start Time</td><td>This sets the time that Microsfot MapPoint&copy; will scheduled your truck to depart at.  The default is 7:00am</td></tr>
+<tr><td>Time Per Stop</td><td>This sets how long the truck is allotted at each stop once it arrives.  The default is 10 minutes.</td></tr>
+<tr><td>Cost Per Mile</td><td>Adjusting this will change how the route is optimized.</td></tr>
+<tr><td>Cost Per Mile</td><td>Adjusting this will change how the route is optimized.</td></tr>
+<tr><td>Trucks</td><td>Currently can only be 1</td></tr>
+</table>
+
+<h3>Adjust Route</h3>
+Once WinCDS has worked to find the best route, you can view the route on screen, including Time Windows, Arrival/Departure Times, and more.  From this screen, you can view the route, or rearrange it selecting a stop and using the up/down arrows on the right.  You can also have WinCDS try to work a while longer to find an optimal solution by clicking the <b>Continue</b> button.  If you are satisfied with the route, you can click <b>Close</b>.
+<br/><img src="RouteAdjust.bmp" /><br/>
+
+
+<h3>Exiting the mapping form</h3>
+To exit the form, click <b>Done</b>.  If you have not printed the map, you will be asked if you want to.
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<html>
+
+<head>
+<title>Bar Code Data Collector</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Inventory Reports">
+	<param name="Keyword" value="Inventory Reports, Barcode Data Collector">
+	<param name="Keyword" value="Barcode Data Collector">
+</OBJECT>
+</head>
+
+<body>
+<h1>Bar Code Data Collector</h1>
+<h4>This section is for taking Physical Inventory, not loading original inventory.</h4>
+<font style="color:red;font-size:11px;">
+<b>NOTE:</b>  Do not use this feature for loading the original inventory.
+Use the <a href="../../File/Load Original Inventory.htm">Load Original Inventory</a> 
+feature in the File Menu.
+</font>
+<img src="8061b.bmp" style="float:right" />
+<p><b><font size="4">Using the CipherLAB Data Collector</font></b></p>
+<ul>
+	<li>Turn on the CipherLAB by pressing the button on the lower right 
+	corner of the unit.</li>
+        <li>To navigate the menus, either press the number corresponding to the
+        item you wish to activate, or use the up/down arrows to highlight it
+        and press one of the two blue buttons (like the Enter key on the keyboard).</li>
+        <li>If you are not already at the main menu, press the ESC key until you are.</li>
+        <li>To take your physical inventory, select menu option 3 (either pressing 3 or or
+        pressing down twice and pressing one of the blue Enter keys).</li>
+        <li>Select Scan (press Enter on menu option 1).</li>
+        <li>Read the warning message and Press Enter (or ESC to cancel).</li>
+        <li>Enter your location (1-16).</li>
+	<li>Aim the CipherLAB at the barcode at the barcode and press the large 
+	yellow button on the top of the scanner for each item you scan.
+	<ul>
+		<li>If you have duplicate items, you can scan each item or scan the first item 
+	and enter the quantity on the keypad, press the enter key to accept.</li>
+		<li><b>NOTE: <u>Do not scan kits.</u></b></li>
+	</ul>
+	</li>
+	<li>After the last item is scanned, <b>be sure to press the Enter Key to 
+	accept the last scanned item.</b></li>
+	<li>When done, press the ESC key to return to the Phys. Inventory menu.</li>
+	<li>You can use multiple data collectors.</li>
+	<li>If you want to take Inventory at another location, you can select 
+	another location from the Phys. Inventory menu and begin scanning the Inventory at that location. 
+	The CipherLAB will hold all stores inventory.</li>
+</ul>
+<p><b><font size="4">Processing the Data From The Data Collector</font></b></p>
+<ul>
+	<li>To upload the data from the CipherLAB, at the Phys. Inventory menu, select 
+        Upload Data (Menu option 2).</li>
+        <li>Select via Base (in which case the CipherLAB must be properly seated in
+        its cradle after selecting this option) or via Wireless.</li>
+	<li>From <u>Custom Design Software's</u> Main menu, press <i>Inventory | Reports | 
+	Barcode Data Collector.</i> The form below will appear.<br/>
+	<img src="CipherLAB.bmp" /><br/><br/>
+	</li>
+        <img src='Import.bmp' align="right"/>
+	<li>
+	From the form, click on <b>Import Data</b>. Select 
+	the 8061-C option (either via Base or via Wireless) in the drop down. Press <b>Import</b>
+	for the Import to begin.</li>
+	<li>When you are prompted File Successfully Written, click the <b>Ok</b> 
+	and then the <b>Close</b>.</li>
+	<li>Remove the CipherLAB from the cradle and press the Escape key.</li>
+	<li>Be sure to shut off the CipherLAB by pressing the button on the 
+	lower right corner of the unit. Keep holding until the unit turns off.</li>
+        <br><br>
+        <li><b>Special Note:</b>You can import multiple times from multiple scanners in
+        Step #1.  Just continue to upload the data until all your scans are uploaded
+        onto the computer.  When you are ready to combine and use all of the scans,
+        then proceed to Step #2.
+        <br><br>
+	<li>From the form, click on <b>Compare Inventory</b>.
+	This compares the scanned items with the actual Inventory in the 
+	Database including Special Orders Received, and merchandise being held for 
+	customers.</li>
+	<li>The final step is to select how you want the reports to be printed.
+	The Default settings are set to print a Discrepancy Report on everything.
+	If you want individualized reports, you can report by Department or by 
+	Manufacturer for all stores or each store individually.</li>
+		<ul>
+			<li>If you select Department, click on the <i><b>Department</b></i> 
+			you want to report on.</li>
+			<li>If you select Manufacturer, click on the <i><b>Manufacturer</b></i> 
+			you want to report on.&nbsp; </li>
+			<li>If you want individual stores, click <i><b>Stores</b></i> and 
+			check on the stores you have scanned. </li>
+		</ul>
+	</li>
+</ul>
+Finally, select <i>Print on Screen or Paper</i>.
+<br/><br/>
+
+Click <b>Generate Report</b> to generate a Discrepancy Report based on the report settings.
+
+</body>
+</html>

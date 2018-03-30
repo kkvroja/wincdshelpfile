@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>Sales Staff</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+</head>
+<body>
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="File Menu">
+	<param name="Keyword" value="Store Setup">
+	<param name="Keyword" value="Sales Staff">
+</OBJECT>
+
+
+<h1>Sales Staff</h1>
+
+WinCDS's has the capability to track all of your employees and allow each of them access
+only the the portions of the software you desire to allow them to access-each with their
+own password.
+
+
+<h2>Entering your Sales Staff</h2>
+
+<img src="Sales Staff Setup.bmp"/>
+<br/><br/>
+Enter each member of your sales staff:
+<ul>
+  <li>Enter the employee's name</li>
+  <li>
+    Enter an employee number for each employee.  If this employee is not a sales agent,
+    leave this field blank.
+  </li>
+  <li>
+    If the agent is paid commission, enter the commission percentage in the 
+    third field.
+  </li>
+</ul>
+
+Be sure to click <b>Apply</b> to save any changes.
+
+<h2>Password Setup</h2>
+To change an employee's password, click the employee's name, followed by the 
+Change Password button. Two password entry boxes will appear, and the 
+Change Password button will change to Save Password. You do not need the 
+employee's current password to use this function.<br/><br/>
+
+Change Permissions is used to alter the employee's group memberships. 
+When this button is used, a selection screen will pop up listing the available 
+groups, with the current memberships pre-selected. These groups determine 
+which areas of the program the user's password will allow access to. See 
+the User Groups section for more information.<br/><br/>
+
+User accounts can now be deactivated, rather than deleted. To 
+deactivate an account, select the user's name and click Disable Account. 
+To reactivate an account, check the Show Disabled Accounts option and select the 
+user's name. The Disable Account button will be replaced with an Enable 
+Account button.
+<br/><br/>
+
+
+<h2>User Groups</h2>
+User Groups control access to various parts of the WinCDS 
+program. Certain menu items, such as Store Setup, may require password 
+authentication. Sales Staff can be members of many groups.<br/><br/>
+
+<h4>WinCDS Default Groups</h4>
+WinCDS begins with several default user groups:<br>
+<table bgcolor=#BBBBFF border=1 cellspacing=2 cellpadding=2 align=center>
+<tr bgcolor=#FFFFCC><td>Group Name</td><td>Description</td></tr>
+<tr><td>Administrators</td> <td>Have access to every part of the program</td></tr>
+<tr><td>Office Staff</td>   <td>Have access to the inventory control, ordering, and payments</td></tr>
+<tr><td>Sales Staff</td>    <td>Have access to sale creation, adjustment, and viewing sections</td></tr>
+<tr><td>Warehouse Staff</td><td>Are allowed to schedule and complete deliveries</td></tr>
+<tr><td>Everybody</td>      <td><font size=-1 color=brightred>* (See Below)</font></td></tr>
+</table>
+<br/><br/>
+
+<h4>The Everybody Group</h4>
+The <u><font size=+1>Everybody</font></u> group is used in conjunction with the Security 
+Level setting found on the General Page of Store Set Up. Privileges granted to the 
+Everybody group are handled differently when the computer is accessible to customers.
+<ul>
+ <li>In Office Computer mode, program areas allowed to Everybody do not require a password to 
+enter.</li>
+ <li>In Sales Floor mode, these functions will accept a password from 
+any active user account.</li>
+</ul>
+This prevents customers from accessing sensitive 
+store data.<br/>
+<br/>
+
+<h4>Custom Groups</h4>
+In addition, you may create Custom Groups. These may have 
+any name, and any one-character abbreviation. No two groups may share an 
+abbreviation, and they may only be deleted (not changed) after they have been 
+saved. The default group names and abbreviations can not be changed.<br/><br/>
+<img src="Sales4.bmp" />
+<br/><br/>
+
+<h2>Changing User Groups</h2>
+Custom Design Software can allow you to customize each user group. 
+Each user group is preconfigured to allow permissions for each group. 
+However, you can click on <i><b>Change User Accounts</b></i> and modify 
+each User Group as seen below. <br/><br/>
+For a description of the Security Zones and what they do, see the
+<a href='SecurityZones.htm'>Security Zones</a> Page.
+<br/><br/>
+Be sure to click apply to save any 
+changes.<br/><br/>
+
+<img border="0" src="Permitted%20Permissions.bmp"><br/><br/>
+
+When you have completed entering 
+or changing information, including passwords and group memberships. 
+Click <b>Apply</b> to save the <i>Sales Staff</i> for each store.
+
+
+<br/><br/>
+
+<h2>Security Level</h2>
+The final step is setting the Security level on each computer which is located 
+on the General Tab of Store Set Up.
+
+<br/><br/><img src='SecurtiyLevel.bmp' /><br/><br/>
+
+The Security Level option determines how often the program asks for passwords.<br/>
+<ul>
+ <li>No Passwords disables all passwords checks.<br/>
+     This is not recommended for active stores, as it leaves all the 
+     financial information visible to all users.
+ </li>
+ <li>Sales Floor mode assumes the computer is in an area accessible to customers, 
+     and will require passwords for most functions.<br/>
+ </li>
+ <li>Office mode assumes the computer is in a physically 
+     secure environment, where only trusted personnel can use it. In this 
+     mode, non-sensitive functions do not require passwords.<br/>
+ </li>
+</ul>
+<br/>
+The program areas that Sales Floor and Office modes 
+protect are configurable through the User Groups screen. These modes 
+only affect areas permitted to the Everybody group.
+<br/><br/>
+Click <b>Apply</b> to save the <i>Security Level</i> for each store.
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Combine Purchase Orders</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+</head>
+
+<body>
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Inventory Menu">
+	<param name="Keyword" value="Purchase Orders">
+	<param name="Keyword" value="POs">
+	<param name="Keyword" value="Combining Open Purchase Orders">
+</OBJECT>
+
+<h1>Combine Purchase Orders</h1>
+<img src='CombinePOs.bmp'>
+<br><br>
+<h3>Combining POs</h3>
+The feature allows you to combine multiple POs under separate PO Numbers into a single PO.  This
+solves the problem of keeping and tracking multiple items from the same vendor from the same vendor,
+and allows you to consolidate them into a single tracking number for convenience and ease of reference
+both within your organization as well as with the manufacturers.
+<br/><br/>
+<h3>Requirements</h3>
+To begin with, the Purchase Orders (POs) you want to combine must satisfy these conditions.
+<ol>
+<li>They must be from the same vendor.</li>
+<li>They must not already be fully received.</li>
+</ol>
+<h3>Combine Qualified POs</h3>
+Having satisfied the conditions, you are ready to combine your POs.
+<br><br>
+To combine open Purchase Orders, open the Combine POs and wait until the <i>Compiling PO Information</i> 
+progress bar completes.  This is generating all of the PO information for all of your vendors so you
+can select which POs you wish to combine.  The process usually compleets in under a minute.
+<br/><br/>
+Next, select the vendors you wish to combine from the box using the check-boxes.  This will combine all open
+POs for these vendors with the POs of like vendors.  For instance, If you select COASTER and HARDEN in the
+image above, all of the COASTER POs will be combined into one PO, and all of the HARDEN POs will be combined into
+another.
+<br/><br/>
+Once you have selected them, click <b>Combine</b>.  The new results will be displayed when the process is complete.
+<br/><br/>
+<h3>Options</h3>
+<ul><li><b>Since</b> Date Box</li>
+<ul>
+<li>Additionally, you can specify a cut-off-date for the POs.  If you only wish to generate the POs since a certain date,
+Check the box in the date box, change the date to your cut-off Epoch, and click <b>Refresh</b>.  You will need
+to wait again for the <i>Compiling PO Information</i> progress bar to complete.  When finished, simply select the
+PO Vendors, and click <b>Combine</b> as you would normally.
+</ul>
+</ul>
+<h3>Exiting</h3>
+When finished, simply click <b>Menu</b> to exit the form.
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>New Sales (Choosing Quantity & Status)</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="New Sales, Entering Merchandise, Merchandise, Order Entry">
+
+
+<style type="text/css">
+<!--
+td.item {font-weight: bold; vertical-align: top; 
+         border-width: 1 1 1 2; border-style: solid; border-color: orange;}
+td.desc {font-weight: normal; vertical-align: top; 
+         border-width: 1 2 1 1; border-style: solid; border-color: orange;}
+-->
+</style>
+</head>
+<body>
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Order Entry">
+	<param name="Keyword" value="New Sales">
+	<param name="Keyword" value="Create Sales">
+	<param name="Keyword" value="Choosing Status">
+</OBJECT>
+<h1>New Sales (Choosing Quantity & Status)</h1>
+
+<table align=center width=90% style="border-color: darkblue; border-width:2; border: solid;">
+  <tr>
+    <td><a href="New Sales 1.htm">Customer Information</a></td>
+    <td><a href="New Sales 2.htm">Entering Merchandise</a></td>
+    <td>Choose Quantity & Status</td>
+  </tr>
+</table>
+
+<br/><br/>
+
+<h3>Style or Carpet - Entering a Style Number</h3>
+If you have selected either <U>Enter Style Number</u> or <u>Carpet</u>, you will be prompted for a style
+number.<br/><br/>
+<img src='CkStyle.bmp'><br/><br/>
+You can either type in a full style number, a partial style number and select from the list on the
+right, or click on either <i>Vendor Name</i> or <i>Description</i> for alternative searching.<br/><br/>
+
+<h3>What if the style number doesn't exist?</h3>
+If you enter
+a style number that does not exist, you will be prompted with the following dialog box.<br/><br/>
+<table cellspacing=0 cellpadding=0>
+  <tr><td colspan=4><b>From this screen, you can do one of the following:</b></td></tr>
+  <tr>
+    <td rowspan=5 width="15">&nbsp;</td>
+    <td class="item" width="175">Re Enter style number</td>
+    <td class="desc">Re-enter the style number if you entered it incorrectly</td>
+    <td rowspan=5><img src='CkStyle-DNE.bmp'></td>
+  </tr>
+  <tr>
+    <td class="item">Enter Item Not In Inventory</td>
+    <td class="desc">Enter an item not in inventory.  This item will show up with the <b>FND</b> status.
+This can be used for items you find on your floor that don't have any particular place in your 
+inventory status but which aren't being special ordered.</td>
+  </tr>
+  <tr>
+    <td class="item">S/O Item Not Carried</td>
+    <td class="desc">Enter a Special Order item that is not in your inventory list.  This creates a Special/Special sale which will show up with a status of SS.</td>
+  </tr>
+  <tr>
+    <td class="item">S/O Lay-A-Way Not Carried</td>
+    <td class="desc">Enter a Special/Special item for Lay-a-way (SSLAW).  This is a combination of the 
+S/S feature above and the Lay-A-Way option.</td>
+  </tr>
+</table>
+<br/><br/>
+
+<h3>Choosing the status and quantity for your item(s)</h3>
+<ul>
+<li>Finally, you must choose the quantity, stock location, and status of each item sold.&nbsp; 
+To enter a quantity, simply enter the number in the <i>Quan</i> box (take note of the
+amount available which is displayed to the right of the quantity box).<br/><br/></li>
+<li>Also, select the store from which you want to pull this this stock from by selecting the appropriate location option button.<br/><br/></li>
+<li>The last selection you must make is that status for the item.  Select one of the five
+options from the bottom of the form.  The options are defined below:<br/><br/> </li>
+<img src='ChooseStatus.bmp' /><br/><br/>
+<table border=0 cellpadding=3 cellspacing=0 width="90%">
+  <tr>
+    <td width="15" rowspan=5>&nbsp;</td>
+    <td width="125" class=item>Reduce Stock (default)</td>
+    <td class=desc>Holds the item indefinitely for later delivery or pick up.  This reduces the Available For Sale as the merchandise is being held.</td>
+<!--    <td rowspan=5 valign=center><img src="ChooseStatus.bmp" width='60%'/></td> -->
+  </tr>
+  <tr>
+    <td class=item>Take With Item</td>
+    <td class=desc>Use this for cash-and-carry items. This will reduce inventory and deliver the item in one operation.</td>
+  </tr>
+  <tr>
+    <td class=item>Tag Incomming Stock</td>
+    <td class=desc>If this item is out of stock, but there is some on order, this will reserve the item for the customer when it arrives. When the purchase order shipment is received, it will automatically find all orders tagged against it, mark those orders received, and show them on the receiving report. Any available stock left over from that purchase order will be automatically added to inventory, and you will be prompted to print out a new price tag.</td>
+  </tr>
+  <tr>
+    <td class=item>Special Order</td>
+    <td class=desc>Choose this if there are none on hand, and none on order. You can also change the complete description, which follows through to the purchase order module. This could be a different fabric or color.</td>
+  </tr>
+  <tr>
+    <td class=item>Lay-A-Way</td>
+    <td class=desc>This is used generate a quote. Lay-A-Way does not reduce the stock. After the customer confirms the Lay-A-Way order, the item can be converted to either a stock or special order very easily.  Once the customer confirms the order, just double clik on the item's Status column which is LAW and you will be prompted to turn this into a stock or Special Order.</td>
+  </tr>
+</table>
+<br/><br/>
+<table align=center width=90% style="border-color: darkblue; border-width:2; border: solid;">
+  <tr>
+    <td><a href="New Sales 1.htm">Customer Information</a></td>
+    <td><a href="New Sales 2.htm">Entering Merchandise</a></td>
+    <td>Choose Quantity & Status</td>
+  </tr>
+</table>
+
+
+</body>
+</html>

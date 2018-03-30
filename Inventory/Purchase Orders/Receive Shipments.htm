@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Receive Shipments</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+</head>
+<body>
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Inventory Menu">
+	<param name="Keyword" value="Purchase Orders">
+	<param name="Keyword" value="POs - Receive Shipments">
+	<param name="Keyword" value="Receive Shipments">
+</OBJECT>
+<h1>Recieve Shipments</h1>
+
+<p align="justify">
+<span style="font-size: 12.0pt; font-family: Times New Roman">All Special Orders 
+for customers and Stock Orders, which are entered via the computer, must be 
+received in the Purchase Order Module.&nbsp; </span>To receive a Purchase Order, click <i><b>Inventory</b></i>: <b><i>Purchase Orders</i></b>: <b><i>Receive Shipments</i></b>. If you know the PO Number 
+or Bill Of Sale Number, enter it in the box, and press Enter. Otherwise, click Lookup, find the PO in the list, and double-click it. The Purchase Order screen appears.&nbsp; </p>
+<p align="justify">If you have not entered the Invoice on Acknowledgement 
+number, do it now!&nbsp; (If you don't have the Invoice, or acknowledgement 
+number, this number can be located on the Freight Bill.) Check the cost and edit 
+it if necessary if you hadn't checked the cost when you got the acknowledgement.&nbsp; 
+The new cost automatically goes back into the sales order, and updates the Cost 
+Of Goods Sold if the item is a Special Order.&nbsp; In a stock shipment, if the 
+cost is changed, the new cost goes back into the inventory database and updates 
+the factory cost of the item.&nbsp;&nbsp;&nbsp; </p>
+<p align="justify"><b>Tip:</b> After you have clicked the <b><i>Rec. All</i></b> 
+button, enter the invoice number in the first line item.&nbsp; Click <b><i>Rec. 
+All</i></b> again and the software will automatically populate the invoice 
+number on all line items.&nbsp; This saves many key strokes.</p>
+<p>&nbsp;<img border="0" src="Rec%20PO.bmp"></p>
+<p align="justify">Next, the apply button will be activated.&nbsp; Click the 
+Apply button and the following form will appear on the screen. This form 
+actually does the receiving.</p>
+<p><img border="0" src="Rec%20PO%20form%202.bmp"></p>
+<p align="justify">The form shows the quantity ordered as 3.&nbsp; Quantity 
+Received in blue can be changed if the factory Back Orders some items.&nbsp; 
+Depending on how you pay your bills, whether upon &quot;Receipt Of Goods or Actual 
+Invoice Date&quot;&nbsp; Set the date to reflect the dating you want in A/P. For 
+stock shipments as this, you have several options indicated by the bullet.&nbsp; </p>
+<ul>
+	<li>
+	<p align="justify">Select Each Floor Tag allows you to individually receive 
+	each items and individually pick which items you want to print a retail 
+	price tag for.&nbsp; </p></li>
+	<li>
+	<p align="justify">Print all w/Floor tags, will print out retail price tags 
+	for all items on the Purchase Order.&nbsp; The check box will activate so 
+	you can process the entire order with one click.</p></li>
+	<li>
+	<p align="justify">Print NO Floor Tags avoids the prince tag form.&nbsp; The 
+	check box will activate so you can process the entire order with one click.</p>
+	</li>
+</ul>
+<p align="justify"><b>Note:</b> I do <b>NOT</b> recommend receiving the entire 
+order by checking the check box.&nbsp; This will definitely lead to missing back 
+ordered items!</p>
+<p align="justify">If you need to skip an item entirely, use the Skip button.&nbsp; 
+Stop receiving will stop any more processing of this Purchase Order.&nbsp; </p>
+<p align="justify">When you have completed the Purchase Order, a form comes up 
+requesting any &quot;Prepaid Freight&quot;.&nbsp; Because we have completely integrated 
+Accounts Payable, any Prepaid Freight by the factory must be accounted for so 
+the software can distribute the invoice.&nbsp; </p>
+<p align="justify">If you don't have the Invoice yet, the date of the freight 
+bill will be the date of shipment on the invoice.&nbsp; It's always the same.&nbsp; 
+We need this date to set up the dating on the Accounts Payable side.&nbsp; It 
+later can be edited in the Accounts Payable module.</p>
+<p align="justify">Click OK when done or leave blank if no prepaid freight is 
+charged.&nbsp; Message box comes up; Po Has Been Received!&nbsp; Click OK .&nbsp; 
+You are asked if there are any more PO's to receive.&nbsp; If not, you are 
+returned to the Main Menu.&nbsp; </p>
+<p align="justify">Here's what receiving the PO's will do:</p>
+<ul>
+	<li>
+	<p align="justify">For stock shipments, you have the option of printing out 
+	new Price Tags for the Floor.&nbsp; If the cost has changed, then Inventory 
+	cost in the data base will be upgraded and the On Sale and Factory List 
+	Prices will automatically be recalculated based on your setting in the data 
+	base.&nbsp; You then can print out new retail price tags for the floor.&nbsp; 
+	If there are any sold orders tagged against incoming stock, these orders 
+	will be received and the balance, if any, will be added to the data base.&nbsp; 
+	These orders will be marked POREC on the sales order.&nbsp; </p></li>
+	<li>
+	<p align="justify">For Special Ordered Shipments,<span style="font-size: 12.0pt; font-family: Times New Roman"> 
+	the computer tags the items as </span>
+	<span style="font-size: 13.0pt; font-family: Times New Roman">&quot;SOREC&quot; </span>
+	<span style="font-size: 12.0pt; font-family: Times New Roman">or &quot;SSREC&quot; 
+	accordingly. If you view the sale, the status column will show the change on 
+	each item. The computer will now recognize that the item has been received.&nbsp; 
+	The cost Of Goods Sold gets automatically updated. </span></p></li>
+	<li>
+	<p align="justify">On both Special Order and Stock shipments, if you have 
+	set the store set up to print receiving labels, then a Bar Coded 2 1/4 x 4&quot;&nbsp; 
+	labels on the Dymo Label Printer.&nbsp; The case amount of the purchase 
+	order will be entered automatically into A/P if you have this option set.&nbsp; 
+	Both Stock and Special Ordered Purchase Orders will be available on the 
+	Receiving Reports in the Purchase Order Module.&nbsp; </p></li>
+</ul>
+
+</body>
+</html>

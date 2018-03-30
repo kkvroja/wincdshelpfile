@@ -1,0 +1,1054 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="FrameName" value="31165">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Main Menu">
+		<param name="Local" value="Index.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Keyboard Shortcuts">
+		<param name="Local" value="ShortcutIndex.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="Getting Started\Index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Loading Original Inventory">
+			<param name="Local" value="Getting Started\Loading Original Inventory.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Departmentalizing the Inventory">
+				<param name="Local" value="Getting Started\Departmentalizing the Inventory.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Entering Open Sales">
+			<param name="Local" value="Getting Started\Entering Open Sales.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Print Preview">
+			<param name="Local" value="Getting Started\Print Preview.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="File">
+		<param name="Local" value="File\Index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="System Tools">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Store Setup">
+				<param name="Local" value="File\Store Setup\Index.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="General">
+					<param name="Local" value="File\Store Setup\General\Index.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="License Number">
+						<param name="Local" value="File\Store Setup\General\License No.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Security Level">
+						<param name="Local" value="File\Store Setup\General\Security Level.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Bill of Sale Number">
+						<param name="Local" value="File\Store Setup\General\Bill of Sale No.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Sales Slip">
+						<param name="Local" value="File\Store Setup\General\Sales Slip.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Ship-To Address on POs">
+						<param name="Local" value="File\Store Setup\General\Ship-to Address on POs.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Computer Type">
+						<param name="Local" value="File\Store Setup\General\Computer Type.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Default Sales Tax">
+						<param name="Local" value="File\Store Setup\General\Default Sales Tax.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Multi Sales Tax">
+						<param name="Local" value="File\Store Setup\General\Multi Sales Tax.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Sales Copy ID">
+						<param name="Local" value="File\Store Setup\General\Sales Copy ID.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Department List">
+						<param name="Local" value="File\Store Setup\General\Dept List.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Advertising Types">
+						<param name="Local" value="File\Store Setup\General\Advertising Types.htm">
+						<param name="URL" value="File\Store Setup\General\Advertising Types.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Discounts">
+						<param name="Local" value="File\Store Setup\General\Discounts.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Number of Copies">
+						<param name="Local" value="File\Store Setup\General\Number of Copies.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Options">
+					<param name="Local" value="File\Store Setup\Misc\Index.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Options">
+						<param name="Local" value="File\Store Setup\Misc\Options.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Receiving Labels">
+						<param name="Local" value="File\Store Setup\Misc\Receiving Labels.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Use Cost on Shipments">
+						<param name="Local" value="File\Store Setup\Misc\Use Cost.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Special Instructions">
+						<param name="Local" value="File\Store Setup\Misc\Special Instructions.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Components">
+					<param name="Local" value="File\Store Setup\Misc\Components.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="DYMO Label Printer">
+						<param name="Local" value="File\Store Setup\Misc\DYMO Label Printer.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Cash Drawer">
+						<param name="Local" value="File\Store Setup\Misc\Cash Drawer.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="CC Integration">
+						<param name="Local" value="Support\CC.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Services">
+					<param name="Local" value="File\Store Setup\Misc\Services.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="QuickBooks">
+						<param name="Local" value="Support\QB.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Ashley">
+						<param name="Local" value="Support\Ashley.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="PayPal">
+						<param name="Local" value="Support\PayPal.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Dispatch Track">
+						<param name="Local" value="File\Store Setup\Misc\DispatchTrack.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Amazon Web Services">
+						<param name="Local" value="File\Store Setup\Misc\AWS.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="TRAX Sales">
+						<param name="Local" value="File\Store Setup\Misc\TRAX.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cost Code/Message">
+					<param name="Local" value="File\Store Setup\Cost Code-Message\Index.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Price Tag Options">
+						<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Index.htm">
+						</OBJECT>
+					<UL>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Show Regular Price">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Show Regular Price.htm">
+							</OBJECT>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Show Manufacturer">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Show Manufacturer.htm">
+							</OBJECT>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Use Store Code">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Use Store Code.htm">
+							</OBJECT>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Show Available Stock">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Show Available Stock.htm">
+							</OBJECT>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Print Barcode">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Print Barcode.htm">
+							</OBJECT>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Pictures on Tags">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Pictures on Tags.htm">
+							</OBJECT>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Don't Merchandise Prices">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Don't Merchandise Price.htm">
+							</OBJECT>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Default Tag Orientation">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Default Tag Orientation.htm">
+							</OBJECT>
+						<LI> <OBJECT type="text/sitemap">
+							<param name="Name" value="Calculate List Price">
+							<param name="Local" value="File\Store Setup\Cost Code-Message\Price Tag Options\Calculate List Price.htm">
+							</OBJECT>
+					</UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Bill of Sale Customer Message">
+						<param name="Local" value="File\Store Setup\Cost Code-Message\Customer Message.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Factory Numbers">
+						<param name="Local" value="File\Store Setup\Cost Code-Message\Factory Numbers.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Sales Staff &amp; Password Setup">
+					<param name="Local" value="File\Store Setup\Sales Staff\Sales Staff.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Security Zones">
+						<param name="Local" value="File\Store Setup\Sales Staff\SecurityZones.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Get Password">
+						<param name="Local" value="File\Store Setup\Sales Staff\new_page_2.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Commissions">
+					<param name="Local" value="File\Store Setup\Commissions\Index.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Commission Options">
+						<param name="Local" value="File\Store Setup\Commissions\Commission Options.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Gross Margin Range">
+						<param name="Local" value="File\Store Setup\Commissions\Gross Margin Range.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Commission Method">
+						<param name="Local" value="File\Store Setup\Commissions\Commission Method.htm">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Installment Options">
+					<param name="Local" value="File\Store Setup\Misc\Installment Options\Index.htm">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Installment License">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Installment License.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Interest Rate">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Interest Rate.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Documentation Fees">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Documentation Fees.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Late Charge %">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Late Charge %.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Maximum Late Charge">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Maximum Late Charge.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Minimum Late Charge">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Minimum Late Charge.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Interest Is Taxable">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Interest Is Taxable.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Grace Period">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Grace Period.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Print Payment Books">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Print Payment Books.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Company Identifier">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\CreditIdent.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Trans Union Acct No">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\TransUnion.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Equifax Account No and Security Code">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Equifax.htm">
+						</OBJECT>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="Experian Acct No">
+						<param name="Local" value="File\Store Setup\Misc\Installment Options\Experian.htm">
+						</OBJECT>
+				</UL>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Backup">
+				<param name="Local" value="File\Backup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Restore">
+				<param name="Local" value="File\Restore.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="System Utilities">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Password Setup">
+				<param name="Local" value="File\Password Setup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Configure Wireless Scanner">
+				<param name="Local" value="File\Configure Wireless Scanner.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Download To Scanner">
+				<param name="Local" value="File\Download To Scanner.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Credit Card Manager">
+				<param name="Local" value="File\CCM.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Manually Check for Program Updates">
+				<param name="Local" value="File\Update.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Speech Recognition">
+				<param name="Local" value="File\Speech.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Speech Recognition Setup">
+					<param name="Local" value="File\Speech-Setup.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Voice Commands">
+					<param name="Local" value="File\Speech-Commands.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Email Config Panel">
+				<param name="Local" value="File\Email.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Ashley Maintenance">
+				<param name="Local" value="File\Ashley.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="System Maintenance">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Annual Update-Quaterly Sales">
+				<param name="Local" value="File\Annual Update.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Restore Deleted Items">
+				<param name="Local" value="File\Restore Deleted Records.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Printing Rack Labels">
+				<param name="Local" value="File\Printing Rack Labels.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Load Original Inventory">
+				<param name="Local" value="File\Load Original Inventory.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Print All Tags">
+				<param name="Local" value="File\PrintAllTags.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Web Development">
+			<param name="Local" value="File\Web\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Generate Web Site">
+				<param name="Local" value="File\Web\generate.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Update CSV">
+				<param name="Local" value="File\Web\update.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Real-time Monitor">
+				<param name="Local" value="File\Web\monitor.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Open Website">
+				<param name="Local" value="File\Web\OpenWeb.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Store Login">
+			<param name="Local" value="File\Store Login.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Exit">
+			<param name="Local" value="File\Exit.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Order Entry">
+		<param name="Local" value="Order\Index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="New Sales">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="New Sales (Customer Information)">
+				<param name="Local" value="Order\New Sales 1.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="New Sales (Entering Merchandise)">
+				<param name="Local" value="Order\New Sales 2.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="New Sales (Choose Quantity &amp; Status)">
+				<param name="Local" value="Order\New Sales 3.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Customer Adjustments">
+			<param name="Local" value="Order\Customer Adjustments.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="View Sale">
+			<param name="Local" value="Order\View Sale.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Payment on Account">
+			<param name="Local" value="Order\Payment on Account.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Deliver Sales">
+			<param name="Local" value="Order\Deliver Sales.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Void Sale">
+			<param name="Local" value="Order\Void Sale.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cash Drawer Entries">
+			<param name="Local" value="Order\Cash Drawer Entries.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cash Register">
+			<param name="Local" value="Order\Cash Register.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Service Module">
+			<param name="Local" value="Order\Service\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Customer Service Module">
+				<param name="Local" value="Order\Service\Customer Service Module.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Damaged Stock">
+				<param name="Local" value="Order\Service\DamagedStock.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Parts Order">
+				<param name="Local" value="Order\Service\PartsOrder.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Open Service Call Report">
+				<param name="Local" value="Order\Service\Open Service Call Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Open Parts Orders Report">
+				<param name="Local" value="Order\Service\OpenPartsOrders.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Parts Order Billing Report">
+				<param name="Local" value="Order\Service\PartsOrdersBillingReport.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Customer Stock Preview">
+			<param name="Local" value="Order\Customer Stock Preview.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Reports">
+			<param name="Local" value="Order\Reports\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Daily Audit Report">
+				<param name="Local" value="Order\Reports\Daily Audit Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Undelivered Sales Report">
+				<param name="Local" value="Order\Reports\Undelivered Sales Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Lay-A-Way Report">
+				<param name="Local" value="Order\Reports\Lay-A-Way Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Backorder Report">
+				<param name="Local" value="Order\Reports\Backorder Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Credit Sales Report">
+				<param name="Local" value="Order\Reports\Credit Sales Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Customer History">
+				<param name="Local" value="Order\Reports\Customer History.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="SalesTax Report">
+				<param name="Local" value="Order\Reports\Sales Tax Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Advertising Report">
+				<param name="Local" value="Order\Reports\Advertising Report.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Inventory">
+		<param name="Local" value="Inventory\Index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="New Items">
+			<param name="Local" value="Inventory\New Items.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Inventory Maintenance">
+			<param name="Local" value="Inventory\Inventory Maintenance.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Factory Shipments">
+			<param name="Local" value="Inventory\Factory Shipments.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Store Transfers">
+			<param name="Local" value="Inventory\StoreTransfers.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Schedule a Transfer">
+				<param name="Local" value="Inventory\StoreTransfers-Create.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Transfer and Void">
+				<param name="Local" value="Inventory\StoreTransfers-View.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pending Transfers">
+				<param name="Local" value="Inventory\StoreTransfers-RepOpen.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Previous Transfers">
+				<param name="Local" value="Inventory\StoreTransfers-RepPrev.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Multi-Store Transfer Billing">
+				<param name="Local" value="Inventory\Customer Deliveries\Multi-Store Transfer Billing.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="View Stock Items">
+			<param name="Local" value="Inventory\View Stock Items.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Customer Deliveries">
+			<param name="Local" value="Inventory\Customer Deliveries\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pull Loads">
+				<param name="Local" value="Inventory\Customer Deliveries\Pull Loads.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Delivery Tickets">
+				<param name="Local" value="Inventory\Customer Deliveries\Delivery Tickets.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Delivery Calendar">
+				<param name="Local" value="Inventory\Customer Deliveries\Delivery Calendar.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Delivery Map">
+				<param name="Local" value="Inventory\Customer Deliveries\Delivery Map.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Multi-Store Billing">
+				<param name="Local" value="Inventory\Customer Deliveries\Multi-Store Billing.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Multi-Store Transfer Lists">
+				<param name="Local" value="Inventory\Customer Deliveries\Multi-Store Transfer Lists.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Purchase Orders">
+			<param name="Local" value="Inventory\Purchase Orders\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Edit/View POs">
+				<param name="Local" value="Inventory\Purchase Orders\Edit-View POs.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Receive Shipments">
+				<param name="Local" value="Inventory\Purchase Orders\Receive Shipments.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Void Stock POs">
+				<param name="Local" value="Inventory\Purchase Orders\Void Stock POs.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Order For Stock">
+				<param name="Local" value="Inventory\Purchase Orders\Order for Stock.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Order By Demand PO's">
+					<param name="Local" value="Inventory\Purchase Orders\Order for Stock.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Minimum Stock Level PO's">
+					<param name="Local" value="Inventory\Purchase Orders\Order for Stock.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Manually Entered PO's">
+					<param name="Local" value="Inventory\Purchase Orders\Order for Stock.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Order Tracking">
+				<param name="Local" value="Inventory\Purchase Orders\OrderTracking.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Orders Not Acknowledged">
+					<param name="Local" value="Inventory\Purchase Orders\Orders not Acknowledged.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Overdue Orders">
+					<param name="Local" value="Inventory\Purchase Orders\Overdue Orders.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Open Purchase Order Report">
+					<param name="Local" value="Inventory\Purchase Orders\Open Purchase Orders.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factory Email - Not Ack">
+					<param name="Local" value="Inventory\Purchase Orders\OrdersNotAcknowledged-Email.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Factory Email - Overdue">
+					<param name="Local" value="Inventory\Purchase Orders\OverdueOrders-Email.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Ashley Direct">
+				<param name="Local" value="Inventory\Purchase Orders\Ashley\index.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ashley Direct">
+					<param name="Local" value="Inventory\Purchase Orders\Ashley\AshleyEDI.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Ashley Advanced Shipping Notice">
+					<param name="Local" value="Inventory\Purchase Orders\Ashley\AshleyAdvShip.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Open Ashley POs">
+					<param name="Local" value="Inventory\Purchase Orders\Ashley\AshleyPOs.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Combine POs">
+				<param name="Local" value="Inventory\Purchase Orders\Combine.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Receiving Report">
+				<param name="Local" value="Inventory\Purchase Orders\Receiving Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Quick Print POs">
+				<param name="Local" value="Inventory\Purchase Orders\Quick Print POs.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Email POs">
+				<param name="Local" value="Inventory\Purchase Orders\EmailPOs.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Check Order Status">
+			<param name="Local" value="Inventory\Check Order Status.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Package Ticket Builder">
+			<param name="Local" value="Inventory\Package Ticket Builder\index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Make Packages">
+				<param name="Local" value="Inventory\Package Ticket Builder\Make Packages.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Edit Packages">
+				<param name="Local" value="Inventory\Package Ticket Builder\Edit Packages.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Master Kit List">
+				<param name="Local" value="Inventory\Package Ticket Builder\Master Kit List.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kits Inventory Look Up">
+				<param name="Local" value="Inventory\Package Ticket Builder\Kits Inventory Look Up.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Commissions">
+			<param name="Local" value="Inventory\Commissions.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Reports">
+			<param name="Local" value="Inventory\Reports\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Inventory Reports">
+				<param name="Local" value="Inventory\Reports\Inventory Reports.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Margin Reports">
+				<param name="Local" value="Inventory\Reports\Margin Reports.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Custom Tag Designer">
+				<param name="Local" value="Inventory\Reports\CustomTagDesigner.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Manufacturers List">
+				<param name="Local" value="Inventory\Reports\Manufacturers List.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Best Sellers List">
+				<param name="Local" value="Inventory\Reports\Best Sellers List.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dog List">
+				<param name="Local" value="Inventory\Reports\Dog List.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="S/S Report">
+				<param name="Local" value="Inventory\Reports\SS Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bar Code Data Collecor">
+				<param name="Local" value="Inventory\Reports\Bar Code Data Collector.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Serial No Tracking">
+				<param name="Local" value="Inventory\Reports\Serial No Tracking.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="View S/S Locations">
+				<param name="Local" value="Inventory\Reports\SS Locations.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Special Event Price Tags">
+				<param name="Local" value="Inventory\Reports\Special Event Tags.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mini Scanner Inventory Check">
+				<param name="Local" value="Inventory\Reports\Barcode Inventory Check.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Store Catalog">
+				<param name="Local" value="Inventory\Reports\StoreCatalog.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Accounting Modules">
+		<param name="Local" value="Financing Module\Index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="QuickBooks Accounting">
+			<param name="Local" value="Financing Module\QB\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="QB Setup - QuickBooks Interface">
+				<param name="Local" value="Financing Module\QB\QbSetup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Account Mapping - QuickBooks Interface">
+				<param name="Local" value="Financing Module\QB\QbSetup-Accounts.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G/L Contra Accounts - QuickBooks Interface">
+				<param name="Local" value="Financing Module\QB\QB-TransferSummary.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Bank Deposits - QuickBooks Interface">
+				<param name="Local" value="Financing Module\QB\BankDeposits.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Receive POs - QuickBooks Interface">
+				<param name="Local" value="Financing Module\QB\ReceivePO.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Month End Transfer - QuickBooks Interface">
+				<param name="Local" value="Financing Module\QB\MonthEnd.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Payables">
+			<param name="Local" value="Financing Module\Payables\Index.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Payroll">
+			<param name="Local" value="Financing Module\Payroll\Index.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Banking">
+			<param name="Local" value="Financing Module\Banking\Index.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="General Ledger">
+			<param name="Local" value="Financing Module\General Ledger\Index.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mailing">
+		<param name="Local" value="Mailing\Index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Add/Edit Names">
+			<param name="Local" value="Mailing\Add-Edit Names.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Merge Addresses">
+			<param name="Local" value="Mailing\Merge.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Address Book">
+			<param name="Local" value="Mailing\MailBook.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Email Blaster - Mailing Address Book">
+			<param name="Local" value="Mailing\MailBookBlaster.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Export Mailing List">
+			<param name="Local" value="Mailing\Export to Floppy.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Print Mailing Labels">
+			<param name="Local" value="Mailing\Print Mailing Labels.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Advertising Report By Zip">
+			<param name="Local" value="Mailing\Advertising Report By Zip.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Installment">
+		<param name="Local" value="Installment\Index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Payment Estimator">
+			<param name="Local" value="Installment\Payment Estimator.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Payment and View">
+			<param name="Local" value="Installment\Payment and View.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Edit Accounts">
+			<param name="Local" value="Installment\Edit Accounts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Void Contract">
+			<param name="Local" value="Installment\Void Contract.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Old Account Setup">
+			<param name="Local" value="Installment\Old Account Setup.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Add On Account">
+			<param name="Local" value="Installment\AddOnAcc.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Credit Applications">
+			<param name="Local" value="Installment\Credit Applications\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Add New Applications">
+				<param name="Local" value="Installment\Credit Applications\Add New Applications.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Edit Old Applications">
+				<param name="Local" value="Installment\Credit Applications\Edit Old Applications.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Equifax Panel">
+				<param name="Local" value="Installment\Credit Applications\Equifax Panel.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Interest Charges And Notices">
+			<param name="Local" value="Installment\Revolving.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Reports">
+			<param name="Local" value="Installment\Reports\Index.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Monthly Billing">
+				<param name="Local" value="Installment\Reports\Monthly Billing.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Late Charges and Notices">
+				<param name="Local" value="Installment\Reports\Late Charges and Notices.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="A/R Ageing Report">
+				<param name="Local" value="Installment\Reports\A-R Ageing Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="A/R Delinquent Report">
+				<param name="Local" value="Installment\Reports\A-R Delinquent Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="New Account Report">
+				<param name="Local" value="Installment\Reports\New Account Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Whos Late">
+				<param name="Local" value="Installment\Reports\WhosLate.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="A/R Trial Balance">
+				<param name="Local" value="Installment\Reports\A-R Trial Balance.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Status Report">
+				<param name="Local" value="Installment\Reports\Legal Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Closed Account Report">
+				<param name="Local" value="Installment\Reports\Closed Account Report.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Export To Credit Bureau">
+				<param name="Local" value="Installment\Reports\Export to Credit Bureau.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Restore Voided Account">
+				<param name="Local" value="Installment\Reports\RestoreVoid.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Inventory Scanner">
+		<param name="Local" value="Scanner\Index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Warehouse Tracking">
+			<param name="Local" value="Scanner\wht.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Item Lookup">
+			<param name="Local" value="Scanner\itm.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Physical Inventory">
+			<param name="Local" value="Scanner\phy.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Utilities">
+			<param name="Local" value="Scanner\utl.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sales">
+			<param name="Local" value="Scanner\sls.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Equifax Company Information">
+		<param name="Local" value="Support\Equifax.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Microsoft Map Point">
+		<param name="Local" value="Support\MMP.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,33 @@
+body 
+  {
+  background-color: #BBCCFF;
+  background-image: url("\Backing.bmp"); 
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  }
+
+a:link     { color: #3333FF; text-decoration: none; }
+a:visited  { color: #3333FF; text-decoration: none; }
+a:active   { color: #AA00FF; } 
+a:hover    { color: #FF0000; text-decoration: underline; }
+
+
+
+h1         { color: white; }
+
+img        { border: 0; }
+  
+table
+  {
+  cell-padding: 0;
+  cell-spacing: 0;
+  border: 0;
+  }
+
+img.logo   { float: right; margin-right: 0; border: 0; padding-right: 0;}
+
+ul         { list-style-image: url("\bulBlu04.png"); }
+ul ul      { list-style-image: url("\bulYel04.png"); }
+ul li ul   { list-style-image: url("\bulYel04.png"); }
+ul ul ul   { list-style-image: url("\bulGre04.png"); }
+ul li ul li ul   { list-style-image: url("\bulGre04.png"); }

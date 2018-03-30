@@ -1,0 +1,384 @@
+<html>
+<head>
+<title>Custom Tag Designer</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Inventory Menu">
+	<param name="Keyword" value="Price Tags">
+	<param name="Keyword" value="Tags">
+	<param name="Keyword" value="Custom Tag Designer">
+	<param name="Keyword" value="Design Custom Tags">
+</OBJECT>
+</head>
+<body>
+<h1>Custom Tag Designer</h1>
+
+<h3>Tag Designer</h3>
+This form allows you to design the layout of your own tags automatically through the software.  You
+can show prices, barcodes, pictures, and more!  
+<h3>Options Available</h3>
+You have many options available for the designing of just the right price tag:<br/>
+<ul>
+<img src='Tag-Designer-Christmas.bmp' width="50%" align='right' >
+  <li>
+    <a href='#SaveLoad'><b>Saving &amp; Loading</b></a>
+    <ul>
+      <li><a href='#LoadTemplate'>Loading a Basic Template</a></li>
+      <li><a href='#Load'>Loading a Saved Tag</a></li>
+      <li><a href='#Save'>Saving the Tag Layout</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href='#Customizing'><b>Customizing Your Tag</b></a>
+    <ul>
+      <li><a href='#SetDim'>Setting the Tag Dimensions</a></li>
+      <li><a href='#CustomSize'>Custom Tag Sizes</a></li>
+      <li><a href='#CurrencyFormat'>Selecting your Currency Format</a></li>
+      <li><a href='#SelectField'>Selecting the Fields</a></li>
+      <li><a href='#AddingInventoryData'>Adding data from inventory</a></li>
+      <li><a href='#ExtraFields'>Extra Fields</a></li>
+      <li><a href='#Pictures'>Pictures</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href='#AddingFields'><b>Arranging and Customizing the Fields</b></a>
+      <ul>
+        <li><a href='#Positioning'>Positioning the Fields</a></li>
+        <li>
+          <a href='#Properties'>Field Properties</a>
+          <ul>
+            <li><a href='#PropFieldName'>Field Name</a></li>
+            <li><a href='#PropFontName'>Font Name</a></li>
+            <li><a href='#PropFontSize'>Font Size</a></li>
+            <li><a href='#PropFontColor'>Font Color</a></li>
+            <li><a href='#PropCaption'>Caption</a></li>
+            <li><a href='#PropFontChar'>Character Style</a></li>
+            <li><a href='#PropFontPosition'>Character Alignment</a></li>
+            <li><a href='#PropType'>Field Type</a></li>
+          </ul>
+        </li>
+      </ul>
+  </li>
+  <li>
+    <a href="#Multiple"><b>Multiple Styles on a Tag</b></a>
+    <ul>
+      <li><a href='#EnterMultiple'>Entering Multiple Styles</a></li>
+      <li><a href='#MultipleRef'>Referencing Multiple Styles</a></li>
+      <li><a href='#MultipleGroups'>Grouping Style Items</a></li>
+      <li><a href='#Mattresses'>Mattress Tags</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href='#Print'><b>Printing your tags</b></a>
+    <ul>
+      <li><a href='#Preview'>Preview Style</a></li>
+      <li><a href='#PrintOne'>Printing a single tag</a></li>
+      <li><a href='#PrintMany'>Printing multiple tags</a></li>
+    </ul>
+  </li>
+  <li><a href='#Menu'><b>Returning to the Main Menu</b></a></li>
+</ul>
+
+
+<a name='SaveLoad'></a>
+<h2>Saving &amp; Loading</h2>
+You can load and save your custom design tags quick and easy.  There are two types of tags to load:
+<ol>
+ <li>Basic Tag Templates - These are the basic system layouts that can help get you a start towards a tag design.</li>
+ <li>Previously Saved Tags - These are saved layout tags that were either provided with your system or that you have created.</li>
+</ol>
+<font color=YELLOW size=-1>WARNING:  Please remember that whenever you load a new tag or exit the screen, all work the current tag you may
+have been creating will be lost.  If you wish to keep the tag you're working on, click on <b>Save Layout</b>.</font>
+
+<a name='LoadTemplate'></a>
+<h3>Loading a Basic Template</h3>
+To load a basic template, select one of the basic system layouts from the box that loads with <u>(Default)</u>.
+The current tag will be cleared and will be loaded with the system layout you select.<br/>
+<font color=green size=-3>NOTE:  The basic templates cannot be changed through the software.</font>
+
+<a name='#Load'></a>
+<h3>Loading a Saved Tag</h3>
+To load a previously saved template, simply select from the drop-down list labeled <i>Layout Name</i>.  The
+tag you select will be loaded into the display window.
+
+
+<a name='#Save'></a>
+<h3>Saving the Tag Layout</h3>
+If you are satisfied with a layout you have created, or simply want to save the progress you have made so far
+in laying out a tag, click on <b>Save Layout</b>.  You will be asked what you want to name this layout.  Be sure
+to type something that will be recognizable later, as you may end up with many later (e.g.  '2007-Christmas-Sale').
+Click <b>OK</b> to save, or <b>Cancel</b> to cancel saving.
+
+
+<a name='Customizing'></a>
+<h2>Customizing Your Tag</h2>
+You can customize just about everything about your tags.  See below for the options available.
+
+<a name='SetDim'></a>
+<h3>Setting the Tag Dimensions</h3>
+<table bgcolor=white border=2 align=right>
+<tr><td>Size</td><td>Dimensions</td></tr>
+<tr><td>Small</td><td>1" x 2"</td></tr>
+<tr><td>Medium</td><td>3" x 4"</td></tr>
+<tr><td>Large</td><td>8.5" x 11"</td></tr>
+<tr><td>Custom</td><td>Any (Original Default is 3" x 3")</td></tr>
+</table>
+
+The first thing you should decide is what the dimensions of your new tag should be.
+There are three preset tag sizes: <i>Small, Medium, and Large</i>.<br/>Additionally, you can make
+a tag any size you want using the <i>Custom</i> tag size.  After selecting this size,
+enter the width and height in inches into the boxes below the size.
+
+<a name='CustomSize'></a>
+<h3>Custom Tag Sizes</h3>
+<img src='Tag-Designer-Custom-Dim.bmp' align='right' />
+To select a custom tag size, select <i>Custom</i> from the <i>Dimensions</i> drop down.  Then, enter
+the dimensions of your custom tag (in inches) in the boxes that appear.  The display region will
+update to the dimensions that you specify.
+
+<a href='CurrencyFormat'></a>
+<h3>Selecting your Currency Format</h3>
+In the box at the top is a checkbox which will determine the format that the currencies on your tags will be printed.
+Selecting the box will change the format of the prices to include a dollar sign.  Leaving it blank will print prices
+without this formatting.
+
+<a name='SelectField'></a>
+<h3>Selecting the Fields</h3>
+<img src='Tag-Designer-SelectFieldUpDown.bmp' align='right' />
+To select a field, simply move your mouse over the field.  The field should turn <font color='#00FF00'>green</font>.<br/>
+Additionally, you can click on the up-down arrows beside the <i>Field Name</i> property to select the field you
+wish to customize.<br/><br/>
+<img src='Tag-Designer-TagItems.bmp' align='right' />
+To choose whether a field should be displayed or not, check or clear the check box beside the field in the
+<i>Tag Items</i> list box.  You can also click <b>Select All</b> or <b>Clear All</b> for convenience.
+
+
+<a name='AddingInventoryData'></a>
+<h3>Adding data from inventory</h3>
+There are several automatic tags that are available for you to insert into your custom design tag.  The
+information that will be displayed for these items will show up originally as a a description of what
+the field is, but will show up as the data for the individual inventory item on the printed tag (or preview).
+
+The style generated tags are as follows:<br/><br/>
+
+<table border=3 bgcolor=black align=center><tr><td>
+<table bgcolor=#CCFFCC>
+<tr bgcolor=#FF99CC><td>Tag Name</td><td>Description</td><td>Examle</td></tr>
+<tr><td bgcolor=#FFFFCC>Bar Code</td><td>The style number of your item encoded into a scanner-readable barcode.</td><td bgcolor='#FFCC99' align='center'><img src='BarCode.bmp' /></td></tr>
+<tr><td bgcolor=#FFFFCC>Style No</td><td>The style number of your item.</td><td bgcolor=#FFCC99 align='center'>6000-066</td></tr>
+<tr><td bgcolor=#FFFFCC>Description</td><td>The description of your item (note that this can be up to 3 lines, depending on the item).</td><td bgcolor=#FFCC99 align='center'>40" * 30" CORNER COMPUTER DESK</td></tr>
+<tr><td bgcolor=#FFFFCC>Code</td><td>This is the code for the item.  This consists of the 3 digit manufacturer's code plus the one digit department number.</td><td bgcolor=#FFCC99 align='center'>8003</td></tr>
+<tr><td bgcolor=#FFFFCC>List Price</td><td>The factory list price for this item.</td><td bgcolor=#FFCC99 align='center'>$1,369.95</td></tr>
+<tr><td bgcolor=#FFFFCC>On Sale</td><td>The current selling price of this item.</td><td bgcolor=#FFCC99 align='center'>$395.50</td></tr>
+<tr><td bgcolor=#FFFFCC>Stock</td><td>The amount currently in stock of this item.</td><td bgcolor=#FFCC99 align='center'>4</td></tr>
+<tr><td bgcolor=#FFFFCC>Cost</td><td>This will print the cost of the item in code.</td><td bgcolor=#FFCC99 align='center'>FOH.HH</td></tr>
+<tr><td bgcolor=#FFFFCC>Vendor</td><td>This will print the manufacturer's name.</td><td bgcolor=#FFCC99 align='center'>ASHLEY</td></tr>
+<tr><td bgcolor=#FFFFCC>VendorNo</td><td>This will print the manufacturer's three-digit code.</td><td bgcolor=#FFCC99 align='center'>365</td></tr>
+</table>
+</tr></td></table>
+<br/><br/>
+
+<a name='ExtraFields'></a>
+<h3>Extra Fields</h3>
+<img src='Tag-Designer-Extra-AddRem.bmp' align='right' />
+If you wish to add additional text, such as captions for the prices, or sale information, or for any additional
+items you wish to add to your price tag beyond the default data tags, you can click the <b>Add Text</b> button.
+An additional field will be created with a <i>Caption</i> property that you can edit to display the text you want.
+<br/><br/>
+You can also remove extra text items that you have created using the <b>Rem Text</b> button.
+
+<a name='Pictures'></a>
+<h3>Pictures</h3>
+You can also add pictures to your tags.  To add a picture, you start by adding a text field.<br/>
+<img src='Tag-Designer-Extra-TextOrPicture.bmp' align='right' />
+Then, select that
+this extra field is a picture using the selector in the lower right.  Then, where the caption would go for a text field,
+simply enter the filename.<br/><br/>
+<font color=white size=-1><b>TIP:  If you are creating a background-image that will have text on top of it,
+make sure that it is the LAST element (i.e. make sure that it is the last extra text field that you create).  This
+will ensure that the text will print on top of the image instead of invisibly printing behind it.  Also, 
+there will be no 'white box' around the text.  It will be printed right on top of the image.</b></font>
+<h4>Image Dimensions</h4>
+<img src='Tag-Designer-Extra-ImageDim.bmp' align='right' />
+To specify the dimensions for your image, simply enter them into the boxes below the file name.  If you want to lock
+the aspect ratio of the image (that is, you don't want it to be stretched and skewed out of its original proportions),
+simply click the <i>Lock</i> check box beside the image dimensions.
+<h5>TIPS:</h5>
+<ul>
+ <li><font color=white>You don't need to enter the full filename.  If you place your images in the WinCDS image directory
+     (C:\InventPX\ on the server or I:\InventPX\ on a workstation), you only need to enter the name of
+     file, without extension, and it will be detected.  This can be a great time-saver and will also
+     help you keep all of your WinCDS images in one place.  WinCDS also will accept a full filename.</font></li>
+ <li><font color=white>If you want to display the picture you have previously stored in your computer for the inventory item,
+     <b><u>enter the pound sign</u> (#) in the <i>Filename</i> box</b>.  A temporary place holder (a large
+     red box) will temporarily be displayed, but when you go to print your tag (or preview), <b>the image
+     that shows up in <i>View Stock Item</i> will be displayed instead.</b>  Be sure to lock the aspect ratio
+     for your image so that it shows up how you expect!</font></li>
+</ul>
+
+
+<a name='AddingFields'></a>
+<h2>Arranging and Customizing the Fields</h2>
+Once you have selected the fields you wish to have displayed on your tag, the next step is to arrange
+and adjust them.
+
+<a name='Positioning'></a>
+<h3>Positioning the Fields</h3>
+To move a field, simply drag it to the position you want.  To drag an item, position the mouse over it, <u>click and hold
+the <b>left mouse button</b></u>.  Move the mouse to the new location.  When you have reached the place you wish to place
+your tag, <u>let up the left mouse button</u>.  For your reference, the location of your mouse pointer or the
+object you are currently positioning is displayed in a blue box below the properties.<br/>  <img src='Tag-Designer-Position.bmp' />
+
+<a name='Properties'></a>
+<h3>Field Properties</h3>
+You will also need to set the properties of your fields.  See below for the options available.
+
+<a name='PropFieldName'></a>
+<h4>Field Name</h4>
+This displays the field you are currently editing.  You cannot change the name of the field.  To select a different
+field, either move your mouse over the top of it (the field you want to find will turn <font color=#00FF00>green</font>),
+or select the field using the up and down arrows beside the field name.
+
+<a name='PropFontName'></a>
+<h4>Font Name</h4>
+Use this drop down to select the font that will be used to display the text.  The Default is <b>Arial</b> but use
+this to create just the look you want.
+
+<a name='PropFontSize'></a>
+<h4>Font Size</h4>
+Change this value to modify the size of the text displayed.  For the barcode, be sure to keep this large enough
+so that your scanner can still read the bars.
+
+<a name='PropFontColor'></a>
+<h4>Font Color</h4>
+If you are printing on a color printer, you can change the color of any of your items.
+
+<a name='PropCaption'></a>
+<h4>Caption</h4>
+For the extra text fields, you can modify the caption of your item.
+
+<a name='PropFontChar'></a>
+<h4>Character Style</h4>
+<img src='Tag-Designer-Char.bmp'/><br/>
+Select one or more of these options to change how your text will be displayed.
+
+<a name='PropFontPosition'></a>
+<h4>Character Alignment</h4>
+<img src='Tag-Designer-Align.bmp'/><br/>
+Select how you wish this item to be positioned.  Note that when viewing things such as descriptions
+or style number, the lengths of items for individual stock items may be very different.  You can
+use the <i>Character Alignment</i> property to align the text depending on your tastes.<br/>
+<table bgcolor=white border=2 cellspacing=1 cellpadding=1 bordercolor=black align=center>
+<tr bgcolor=lightblue><td>Alignment Type</td><td>Description</td></tr>
+<td>Align to Top Left</td><td>The fixed point will be the top left of the text.</td></tr>
+<td>Align to Absolute Left</td><td>The text will always be at the absolute left of the tag.</td></tr>
+<td>Align to Center</td><td>The text will always be centered in the tag.</td></tr>
+<td>Align to Absolute Right</td><td>The text will always be at the absolute left of the tag.</td></tr>
+<td>Align to Top Right</td><td>The fixed point will be the top right of the text.</td></tr>
+</table>
+
+<a name='PropType'></a>
+<h4>Field Type</h4>
+<img src='Tag-Designer-TextOrPicture2.bmp' /><br/>
+If you are editing an extra field, you can also select whether this field will be an image or text.
+
+<a name='Multiple'></a>
+<h2>Multiple Styles on a Tag</h2>
+Sometimes, it is beneficial to have multiple style numbers displayed on a tag, such as a mattress store listing the
+prices for Twin, Full, Queen, and King sized mattresses.  It is also sometimes useful to have multiple groups of styles, such as if you sell a mattress and a box spring separately.  This can be accomplished by the Multiple Styles box.<br/><br/>
+While they will not be displayed by the default tag fields, they can be accessed by adding extra fields.
+
+<a name='EnterMultiple'></a>
+<h3>Entering Multiple Styles</h3>
+To enter mutliple styles that will be displayed on tag, simply enter each style on its own line in the multiple styles line.
+You can have as many styles as you want.<br/><br/>
+
+To have style groups, put each group on its own line, with each item in the group separated by commas.
+
+<a name='MultipleRef'></a>
+<h3>Referencing Multiple Styles</h3>
+Once you have entered your extra style numbers, you need to create the extra fields to display them (or, as a short-cut,
+you can select one of the already created layouts or templates to display them).  To display a field from one of the
+extra styles, you must enter one of the available codes into the box, as described below.<br/><br/>
+All of the codes start with the character # (pound sign).  After that, the field name is specified (see table).  Then,
+a colon, and finally, a designator specifying the line and, if applicable, the position in the group.<br/><br/>
+For the following examples, assume the the multiple styles box has the following four lines:<br/><br/>
+<b>
+<font size=+1 color=white>
+&nbsp;&nbsp;&nbsp;&nbsp;6000-066,6000-091,6000-085<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;557<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3000,3001<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;44444<br/><br/>
+</font>
+</b>
+Some example codes would be:<br/>
+<table border=1 cellpadding=2 cellspacing=2 bgcolor=#CC66CC left=300>
+<tr bgcolor='#FFCCFF'><td width=120>Code Example</td><td>What the tag would display</td><td width=75 align=right>Result</td></tr>
+<tr><td>#style:2</td><td>The style number of the second line</td><td align=right>557</td></tr>
+<tr><td>#listprice:1b</td><td>This shows the list price of the second item in the group on the first line.</td><td align=right>$499.95</td></tr>
+<tr><td>#cost:4</td><td>This displays the cost of the item 444444.</td><td align=right>$30.00</td></tr>
+<tr><td>#onsale:3</td><td>Because line 3 is a group, and this is a price, it computes the price of the entire group and displays it.</td><td align=right>$2,390.38</td></tr>
+</table>
+<br/><br/>
+
+For all of the below codes, all spaces an capitalization are ignored
+<table border=2 cellpadding=2 cellspacing=2 bgcolor=#9999FF width='85%'>
+  <tr bgcolor=lightblue><td>Code</td><td>Description</td>
+  <tr><td>barcode</td><td>The barcode of the item (a barcode is the style-number of the item with two alignment characters.  You will still need to select an appropriate barcode font for it to be displayed correctly).</td></tr>
+  <tr><td>style, styleno</td><td>The style number of the item specified</td></tr>
+  <tr><td>vendor, mfg</td><td>The manufacturer's name</td></tr>
+  <tr><td>vendorno, mfgno</td><td>The manufacturer's number (three digits)</td></tr>
+  <tr><td>desc, description</td><td>The descriptiong of the item</td></tr>
+  <tr><td>code</td><td>The item's code (shows vendor number and department number)</td></tr>
+  <tr><td>onsale, onsaleprice, sale, saleprice</td><td>The On Sale Price</td></tr>
+  <tr><td>list, listprice</td><td>The List Price</td></tr>
+  <tr><td>cost</td><td>The item's cost</td></tr>
+  <tr><td>stock, instock</td><td>The amount in stock of this item.</td></tr>
+  <tr><td>onhand</td><td>The amount on hand of this item.</td></tr>
+  <tr><td>available</td><td>The amount available of this item.</td></tr>
+</table>
+
+<a name='MultipleGroups'></a>
+<h3>Grouping Style Items</h3>
+To have groups of items, simply put multiple styles on the same line, separated by commas.  You can have up to 10 items in
+a group.
+
+<a name='Mattresses'></a>
+<h3>Mattress Tags</h3>
+<img xalign=right src='Tag-Designer-MattressForm.bmp' /><br/>
+If you want to create a tag for a mattress group, double click on the Multiple Styles box, and a form will
+pop up to help you enter all the styles.  In each of the boxes available, you can double click and look up
+a style number.  Either click OK or Cancel when you are done to save or cancel your entries.  The values will
+be filled in on the Tag Designer.
+
+<a name='Print'></a>
+<h2>Printing your tags</h2>
+If you are ready to print a tag, select the <b>Print Tag</b> button.
+It is always a good idea to save a tag before printing with it.  In addition, enter any style number that you
+wish to display on this tag.
+
+<a name='Preview'></a>
+<h3>Preview Style</h3>
+To see how a particular style will be displayed on your tag, enter the style number into the <i>Style</i>
+box.  Press TAB to leave the field and the tag will be updated to display the tag.  Leave this field blank to
+view placeholders instead of actual data.
+
+<a name='PrintOne'></a>
+<h3>Printing a single tag</h3>
+To print the currently previewed style, click <b>Print 1 Tag</b>.  The currently previewed tag will be printed.
+
+<a name='PrintMany'></a>
+<h3>Printing Multiple Tags</h3>
+To print multiple tags, select the Manufacturer, Department, or partial style numbers you wish to print.  Select
+whether you wish to print one for each On Hand item or simply 1 tag per style number in your selection.  The total
+number of tags that will be printed will be displayed in the box labeled <i>Tags to be printed:</i>.  When your
+selection is complete, click <b>Print Tags</b> to print them.
+
+<a name='Menu'></a>
+<h2>Returning to the Main Menu</h2>
+To return to the main menu, be sure you have saved any work on tags you wish to preserve, and click <b>Menu</b>.
+
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>QB Setup - QuickBooks Interface</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Financing Modules">
+	<param name="Keyword" value="QuickBooks Interface">
+	<param name="Keyword" value="QB Setup">
+	<param name="Keyword" value="Setup">
+</OBJECT>
+</head>
+<body>
+<h1>QB Setup - QuickBooks Interface</h1>
+
+<h3>Before Setup</h3>
+If you open the QuickBooks Interface panel from the General Ledger dropdown on the Main Menu without 
+properly setting up the interface, you will see a yellow warning label and the following message:<br/>
+<img src='QB-NotSelected.bmp'/>
+<br/>
+<br/>
+To use this, follow the following instructions and which will guide you through your one-time setup.
+
+
+
+<h3>Setting Up The Interface</h3>
+<ol>
+<li><h4>Setting Up WinCDS</h4>
+The first step you must do to set up your QuickBooks interface is to enable it in Store Setup.<br/>
+Open store setup and go to the options tab.  You should see a grayed out QuickBooks box with no
+check-mark.<br/>
+<img src='QB-No.bmp'><br/>
+<br/>
+Click on this check-box and it will become checked and colored in as such:<br/>
+<img src='QB-Yes.bmp'><br/>
+<br/>
+This will indicate to WinCDS that you desire to use QuickBooks for your accounting, but WinCDS must know the
+file name, the accounts, and setup other important information before you can begin using it.
+<br/><br/>
+</li>
+<li><h4>Setting up the QuickBooks Company</h4>
+The second step in setting up your QuickBooks interface is to be sure that your QuickBooks company file will
+accept connections from WinCDS.  To enable this, follow these steps:
+  <ol>
+  <li>Open your QuickBooks company.<br/><br/></li>
+  <li>In WinCDS, open the QuickBooks Interface panel from the General Ledger Menu.  You should see the following:<br/>
+<img src='QB-NotSetup.bmp'><br/><br/>
+  </li>
+  <li>You must now specify for WinCDS to connect to your QuickBooks company.  Enter the filename of
+      your company datafile into the box labeled <i>Company File</i>.  Tab off this box and you will
+      receive notification that WinCDS is attempting to connect to your Company File.<br/>
+      <img src='QB-Connecting.bmp'/><br/><br/>
+  </li>
+  <li>Once you see the connecting message, QuickBooks should respond with a security warning.  This
+      indicates that it has detected a program attempting to connect to its data file.  Verify your company
+      name and that the application attempting to access the file is called
+      <b><u>WinCDS POS for Furniture Stores</u></b>.  Enable the checkbox at the bottom of the box that
+      says <i>Allow this application to access Social Security Numbers, customer credit card information,
+      and other personal data</i>.  Then, click <i>Yes, <u>A</u>lways</i> to allow WinCDS to access your data.<br/>
+      <img src='QB-NewApp.bmp'><br/><br/>
+  </li>
+  <li>
+   When you click to accept, you will be asked to confirm your choice to proceed.
+   <font size=-1 color=red>NOTE:  If you do not authorize WinCDs to access
+   your data, we will not have access to interface our accounting with your company file.</font>  
+   Be sure to read the notice and click <i>Yes</i> to proceed.  <br/>
+   <img src='QB-ConfirmToProceed.bmp'>
+   <br/><br/>
+  </li>
+  <li>
+  Now you must finish setting up the options for this application.  Go to the <i>Edit</i> menu in QuickBooks
+  and select <i>Preferences</i>.  On the left of the form, scroll to and select <i>Integrated Applications</i>
+  and go to the <b>Company Preferences</b> tab.  This shows you the complete list of applications
+  that are allowed to integrate with your company's data.  If you have successfully carried out the
+  above instructions, you should see the entry <b>WinCDS POS for Furniture Stores</b> in the list.  Select
+  this entry and click on the <b>Properties...</b> button to the right of the list.<br/>  
+  <img src='QB-IntegratedApplications.bmp'>
+  <br/><br/>
+  </li>
+  <li>In order for WinCDS to access the data without having QuickBooks open in the background, it must be
+  given permission by you to login automatically.  Click the box labled <i>Allow this application to login
+  automatically</i>.  Click <b>OK</b> to exit out of the properties, and again to exit the Preferences screen/
+  Integrated Applications list.<br/>
+  <img src='QB-AllowAutomaticLogin.bmp'><br/><br/>
+  </li>
+  <li>Your QuickBooks company is now set up to allow WinCDS to connect freely!</li>
+  </ol>
+<br/>
+</li>
+<li><h4>Creating Location Classes</h4>
+WinCDS will export all of its data with classes that reflect the store number.  Click the
+<b>Create Loc Classes</b> to allow WinCDS to create these classes automatically.
+</li>
+<li><h4>Creating special customers</h4>
+WinCDS uses a dummy customer called 'Customer Deposits' for tracking bank deposits.  Click <b>Create
+Special Customer Accounts</b> to create this account automatically.<br/><br/>
+</li>
+<li><h4>Transfering Vendors</h4>
+Generally, you will have all of your vendors already set up in QuickBooks.  If this is the case, you can
+skip this step.  WinCDS needs all of its vendors to exist in QuickBooks.  If you do not have the
+vendors existing in QuickBooks, you can click on <b>Transfer Vendors</b> to automatically transfer all of
+your vendors.<br/><br/>
+</li>
+<li><h4>Setting up your Account Mapping</h4>
+To set up a single account, select it from the list.  Below, you will see the account name, number, and type.
+Either select an existing QuickBooks account from the drop-down box or a new account.  If you want to create
+a new account, you can also specify an account number.  You must click <b>Create Acct</b>.  If the account already
+exists, simply tab off your selection.<br/>
+Do this for all the accounts specified.
+<br/><br/>
+<a href=QBSetup-Accounts.htm><font size=-1 color=green>&gt;&gt;&gt; &nbsp;&nbsp; Click here for a full list of accounts that WinCDs must map.</font></a>
+<br/><br/>
+Alternatively, Click on <b>Create All Accounts</b> to automatically create all the required accounts.  Note that
+each transaction to QuickBooks may take a while, so this operation could take a minute or two.  Wait until
+you are notified that the process is complete.
+<br/><br/>
+</li>
+<li><h4>Confirming your QB Setup</h4>
+To confirm that your QuickBooks interface is properly setup, open the Interface panel (from the General Ledger
+drop down on the Main Menu).  You should see a green status indicator and a status message indicating
+<i>Status OK</i>.<br/>
+<img src='QB-StatusOK.bmp'><br/>
+<br/>
+</li>
+
+</body>
+</html> 	

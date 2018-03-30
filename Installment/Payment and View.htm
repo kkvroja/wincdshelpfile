@@ -1,0 +1,192 @@
+<html>
+<head>
+<title>Payment and View</title>
+<LINK href="help.css" type="text/css" rel="stylesheet">
+<META name="Keywords" content="">
+</head>
+<body>
+<Object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<param name="Keyword" value="Installment">
+	<param name="Keyword" value="Payment and View">
+</OBJECT>
+<h1>Payment and View</h1>
+<img src='AccountScreen-7.bmp' style='float: right;'/>
+Here is the account Payment and View screen. <br/><br/>There are seven parts to this screen:<br/><br/>
+<ol>
+ <li><a href='#one'>Customer and Account Information</a></li>
+ <li><a href='#two'>Terms and Conditions</a></li>
+ <li><a href='#thr'>Balance and Payments</a></li>
+ <li><a href='#fou'>Ageing and Commands</a></li>
+ <li><a href='#fiv'>Method of Payment</a></li>
+ <li><a href='#six'>Move Records</a></li>
+ <li><a href='#sev'>Letter To Customer</a></li>
+</ol>
+<br/>
+<br/>
+The sections are explained below:<br/><br/>
+
+<a name='one'></a>
+<h1>1 - Customer and Account Information</h1>
+This sections contains the information about the customer, as well as the account status.  
+At the top is the account number as well as the status indicating whether this account is Open, Closed, Void, Write off,
+or another status.  You cannot change anything in this box while the form is in Payment and View mode.  To be able
+to change the status, you must go to the <a href='Edit Accounts.htm'>Edit Accounts</a> screen.<br/>
+The status will automatically change to <u>Closed</u> when the account is paid off or <u>Void</u> is the contract is voided.<br/>
+<br/>
+Additionally, you can click on <b>View Cust. History</b> in the lower right of this box to see all transactions from all Ar Accounts from this customer.
+<img src='Account.bmp'/><br/>
+<br/>
+<a name='two'></a>
+<h1>2- Terms and Conditions</h1>
+This sections displays the original terms of the contract.  This information is only editable under the 
+<a href='Edit Accounts.htm'>Edit Accounts</a> screen.  It shows the original delivery date, date of first last payment,
+as well as original financing options and late fees.<br/>
+<br/>
+From this box, you can reprint contract information for the customer or your file.  You can click:
+<ul>
+<li><b>Reprint Contract</b> - Reprint the installment contract.</li>
+<li><b>Reprint Coupons</b> - Reprint the customer's coupon book.</li>
+</ul>
+<br/>
+<img src='Terms.bmp'/><br/>
+<br/><br/>
+<h4>Payment Summary Box:</h4>
+<img src='PaymentSummary.bmp'><br/><br/>
+In the Orange box, you can view the payment summary for this customer.  
+Each character represents one month of customer history.  The first character represents the
+account payment status at the date shown directly above the box (calculated to be the
+most recent late date adjusted for Grace period).  The next character represents the account
+status for the previous month, one month prior to the date shown.  The third character is
+two months ago.
+<br/><br/>
+The box is formatted to show 12 months per line, so the start of the second line will show 
+one year prior, followed by one year and one month, followed by one year and two months, and so on.
+<br/><br/>
+The individual characters are interpreted as follows:<br/>
+<br/>
+<table border=1 cellspacing=0 bgcolor=pink style="margin-left: 30px; border-color:black;">
+<tr><td>1</td><td>Account was current</td></tr>
+<tr><td>2</td><td>Account was 1 payment behind</td></tr>
+<tr><td>3</td><td>Account was 2 payments behind</td></tr>
+<tr><td>4</td><td>Account was 3 payments behind</td></tr>
+<tr><td>5</td><td>Account was 4 or more payments behind</td></tr>
+<tr><td>Blank</td><td>No payment history for this month (account was likely not open then).</td></tr>
+</table>
+<br/><br/>
+Take the following example for the 1st 12 months of a contract with a first payment late date of 1/21, 
+with a monthly payment of $100.00, and a late charge of $5.00:
+<style>
+<!--
+.PayHistoryDate {background: white; color:black;}
+.PayHistory {text-align:left;padding-left: 15px;color:black;background-color:rgb(255,224,192);font-weight:bold;}
+-->
+</style>
+<table border=1 cellspacing=0 bgcolor=black style="margin-left: 30px; border-color:white;color:white;text-align: right;">
+<tr>
+        <td width=65>Date</td>
+        <td width=65>Paid</td>
+        <td width=150>Arrears</td>
+        <td>Payment Codes on Date</td>
+</tr>
+<tr><td class='PayHistoryDate'>1/21</td><td>100.00</td><td>0.00</td><td class='PayHistory'>1</tr></tr>
+<tr><td class='PayHistoryDate'>2/21</td><td>100.00</td><td>0.00</td><td class='PayHistory'>11</tr></tr>
+<tr><td class='PayHistoryDate'>3/21</td><td>0.00</td><td>105.00 (+$5.00 LC)</td><td class='PayHistory'>211</tr></tr>
+<tr><td class='PayHistoryDate'>4/21</td><td>0.00</td><td>210.00 (+$5.00 LC)</td><td class='PayHistory'>3211</tr></tr>
+<tr><td class='PayHistoryDate'>5/21</td><td>260.00</td><td>55.00 (+$5.00 LC)</td><td class='PayHistory'>23211</tr></tr>
+<tr><td class='PayHistoryDate'>6/21</td><td>100.00</td><td>60.00 (+$5.00 LC)</td><td class='PayHistory'>223211</tr></tr>
+<tr><td class='PayHistoryDate'>7/21</td><td>160.00</td><td>0.00</td><td class='PayHistory'>1223211</tr></tr>
+<tr><td class='PayHistoryDate'>8/21</td><td>100.00</td><td>0.00</td><td class='PayHistory'>11223211</tr></tr>
+<tr><td class='PayHistoryDate'>9/21</td><td>0.00</td><td>105.00 (+$5.00 LC)</td><td class='PayHistory'>211223211</tr></tr>
+<tr><td class='PayHistoryDate'>10/21</td><td>0.00</td><td>210.00 (+$5.00 LC)</td><td class='PayHistory'>3211223211</tr></tr>
+<tr><td class='PayHistoryDate'>11/21</td><td>310.00</td><td>0.00</td><td class='PayHistory'>13211223211</tr></tr>
+<tr><td class='PayHistoryDate'>12/21</td><td>100.00</td><td>0.00</td><td class='PayHistory'>113211223211</tr></tr>
+</table>
+
+<h4>Things to Note:</h4>
+From the above example, notice that as the customer misses payments (e.g., March & April), the current number (the left-most one) increase,
+but it also shows the trend.  On 4/21, for example, the code would show "3211", meaning, while they are 2 months
+behind now, they were one month behind the previous payment, and made the first two payments successfully.
+<br/><br/>
+Paying off the balance lowers the numbers. For example on 11/21, the code goes from 3211... in October,
+to 13211...  This means they are now current, having paid the two previous months off, as well as the current.  
+This is in contrast to the partial payoff on
+5/21, where only paid the current month and one previous month.  In that instance, the code was "23211"
+indicating an improvement, but still in arrears.
+<br/><br/>
+From this simple status indicator, you can quickly determine the health of 
+any given contract, see patterns of delinquency, and decide how to repond accordingly.
+<br/>
+<a name='thr'></a>
+<h1>3 - Balance and Payments</h1>
+The box in the middle on the left side shows the current <i>Balance</i>, any <i>Late Charges</i> that
+have not been paid, and how much the customer must pay for a total <i>Payoff</i> at that moment.<br/>
+<br/>
+<br/>
+<img src='Balance.bmp'/><br/>
+
+<a name='fou'></a>
+<h1>4 - Ageing and Commands</h1>
+In the box in the middle on the right side, there are several buttons.<br/><br/>
+<img src='Cmds.bmp'/><br/><br/>
+<table border='1' bgcolor='lightblue' cellspacing='0' bordercolor='black'>
+<tr bgcolor='white'><th width='100'>Command</th><th>Description</th></tr>
+<tr><td>Credit App.</td><td>To enter a complete Credit Application for the customer (and co-buyer if any), 
+	such as DOB, Soc-Sec Number, Employer, References, etc...<br/>We also tie into Equifax to get credit reports.</td></tr>
+<tr><td>Apply</td><td>Post a payment</td></tr>
+<tr><td>Receipt</td><td>Post a payment, like <b>Apply</b>, but prints a receipt</td></tr>
+<tr><td>Cancel</td><td>Returns to the main menu</td></tr>
+<tr><td>Detail</td><td>Shows the ledger card for all payments (clicking this again will hide the information).<br/>
+    <br/><span class='note' style='font-size:13px;font-weight:bold;color:blue;'>NOTE: You can click double click on a payment line to reprint the receipt or on the new sale line to view the sale.</span>
+	</td></tr>
+<tr><td>Notes</td><td>See any notes notes that have been added or add a new note.  Previous notes are shown first with
+	time and date displayed.  Enter any new notes in the lower box and click <b>Save</b> to add them.
+	Click <b>Notes</b> again to hide account notes.</td></tr>
+<tr><td>Print</td><td>Prints the complete Ledger Card</td></tr>
+<tr><td>Early Payoff</td><td>Pays off the account in full.  Refunds, if due, will be paid back as configured by WinCDS for your credit needs based on one of the commonly
+	accepted credit refund formulas (e.g. ProRata, Rule 78, Rule of Anticipation, etc). The <i>Balance Due</i> 
+	payment must be entered. This will pay off the sale and close the account.</td></tr>
+<tr><td>Sale Totals</td><td>Shows the balance card for all sales in a revolving account, including interest that will be added on the next monthly statement. (clicking this again will hide the information)</td></tr>
+</table>
+<br/>
+<h3>Note: Pay on Late Charges</h3>
+Paying on Late Charge will decrease the Late Charge Balance. If you need 
+to pay on a Late Charge, enter the Late Charge payment In the Late Charge 
+Payment Box. As in the example below, the customer owes a total of 
+$928.50. Entered is the monthly payment of $75.71 for the current month
+and $10.00 to catch them up on the late charges.  This will bring the account
+up to date.<br/>
+<br/>
+<img src="FullPayment.bmp" />
+<br/>
+<br/>
+<br/>
+<a name='fiv'></a>
+<h1>5 - Method of Payment</h1>
+Click on the appropriate option to select your method of payment.<br/><br/>
+<img src='PayMethod.bmp'/><br/>
+<br/>
+<a name='six'></a>
+<h1>6 - Move Records</h1>
+You can use the left and right arrows to move between records.  Use the double arrows to proceed to the first/last
+entry.  You can also check or clear the Send All Mail checkbox here.  To print a mailing label for this customer
+based in the information in box 1, select your label type and click <b>Print Mailing Label</b>.<br/><br/>
+<img src='MoveRecords.bmp'/><br/>
+<br/>
+<a name='sev'></a>
+<h1>7 - Letter to Customer</h1>
+Here you can send customized letters to your customer.
+These letters must be pre-defined and they will be listed in the box.
+You have been given a letter of instructions on how to set up a custom letter with the original software kit.
+To print a letter, select it in the list and click <b>Print</b>.
+You can also  <b>Edit</b> to edit the letter.
+If you want to open the letter in Word to edit before sending, you can click <b>Export</b> instead of printing it.
+To print a list of fields that are available when creating new letters, click <b>Fields</b>.  This is a help
+feature for creating new letters.  It will help you create or modify existing letters.<br/><br/>For more
+information on creating Customer Letters, click <a href='Customer Letter.htm'>here</a>.<br/><br/>
+<img src='CustomerLetter.bmp'/>
+<br/>
+<br/>
+
+
+</body>
+</html>
