@@ -53,3 +53,4 @@
 *.xcf binary
 *.chw binary
 *.VBCSln binary
+*.mdb binary
