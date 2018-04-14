@@ -54,3 +54,4 @@
 *.chw binary
 *.VBCSln binary
 *.mdb binary
+*.tlg binary
